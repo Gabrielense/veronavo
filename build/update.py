@@ -15,12 +15,13 @@ Sources (the cinemas' own listings only -- never aggregators):
                           NOTE: www.ucicinemas.it itself sits behind a Queue-it waiting room
                           and cannot be curled; the backend API can.
 """
-import json,os,re,sys,html,glob,datetime,urllib.parse,subprocess,collections
+import json,os,re,sys,html,glob,datetime,urllib.parse,subprocess,collections,hashlib
 
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW=os.path.join(ROOT,'build','raw')
 JSON_PATH=os.path.join(ROOT,'verona-vo-schedule.json')
 FETCH='--no-fetch' not in sys.argv
+FORCE='--force' in sys.argv
 
 TZ_LABEL='Europe/Rome'
 NOW=datetime.datetime.now()
@@ -152,9 +153,7 @@ def parse_uci():
             if mv.get('poster'):
                 posters[mv['slug']]={'poster':mv['poster'],
                     'genres':[g['name'] for g in (mv.get('genres') or [])],
-                    'description':html.unescape(re.sub(r'<[^>]+>',' ',mv.get('description') or '')).strip(),
                     'rating':(mv.get('rating') or {}).get('name')}
-                posters[mv['slug']]['description']=re.sub(r'\s+',' ',posters[mv['slug']]['description'])
             for scr in (mv.get('screens') or []):
                 for scrname,items in scr.items():
                     for it in items:
@@ -164,13 +163,47 @@ def parse_uci():
                         for p in (it.get('performances') or []):
                             if p.get('day')!=day: continue
                             rows.append({'date':day,'time':p.get('actual_start_at') or (p.get('starts_at') or '')[11:16],
-                                'title':html.unescape(mv['title']),'slug':mv['slug'],'screen':scrname,'room':p.get('room'),
+                                'title':html.unescape(mv['title']),'slug':mv['slug'],'version_slug':it.get('slug'),
+                                'screen':scrname,'room':p.get('room'),
                                 'lang':lang,'subs':subs,'price':p.get('price_starting_from'),
                                 'perf_minutes':p.get('duration'),'cart_link':p.get('cart_link'),
-                                'ends_at':p.get('ends_at')})
+                                'ends_at':p.get('ends_at'),
+                                'release_date':it.get('release_date') if isinstance(it.get('release_date'),str) else None})
     return rows,posters,probed
 
 # ---------------------------------------------------------------- shared
+def guess_original(version_slug):
+    """UCI names each version after the ORIGINAL title: 'ov-dune-part-three',
+    'jp-godzilla-minus-zero', 'ov-the-further-mis-adv-of-cliff-imax'. Strip the language
+    prefix, the trailing numeric id and the format suffix. Some are truncated by UCI, which
+    is fine -- it is only a search hint, and every match is checked on year + title."""
+    if not version_slug: return ''
+    t=re.sub(r'^(ov|jp|kor|esp|eng|fra|ger)-','',version_slug)
+    t=re.sub(r'-(imax|xl|3d|2d)$','',t)
+    t=re.sub(r'-\d{3,}$','',t)
+    return t.replace('-',' ').strip()
+
+def trailer_search(fm):
+    """A YouTube search link, not a specific video.
+
+    We deliberately do NOT resolve a trailer to one video id. Doing that means matching
+    our film against a third-party database, and an early attempt matched
+    'Scrooge: Gli spiriti del Natale' (2026, Ti West) to 'Ebenezer' (1998 TV film) --
+    right title, wrong film. A search for the correct title and year always lands the
+    viewer in the right place and nothing goes stale."""
+    # film_original comes from the Fiume listing's parentheses and is a real title.
+    # original_guess comes from a UCI version slug and is often truncated or abbreviated
+    # ('hunger games sunrise on the r', 'the further mis adv of cliff'), so it is NOT used
+    # here -- the Italian release title is always exact and always finds the film.
+    q=fm.get('film_original') or fm.get('film_it') or ''
+    q=re.sub(r'\s+C\.A\.$','',q)   # UCI's "contenuto alternativo" marker, not part of the title
+    year=''
+    m=re.search(r'(19|20)\d{2}',fm.get('production') or '')
+    if m: year=m.group(0)
+    elif fm.get('release_year'): year=str(fm['release_year'])
+    return 'https://www.youtube.com/results?'+urllib.parse.urlencode(
+        {'search_query':f"{q} trailer {year}".strip()})
+
 def split_title(t):
     m=re.match(r'^(.*?)\s*\((.+)\)\s*$',t)
     return (m.group(1).strip(),m.group(2).strip()) if m else (t.strip(),'')
@@ -219,7 +252,9 @@ def build():
         po=uposters.get(r['slug'],{})
         films.setdefault(key,{'film_it':it,'film_original':orig,'poster_url':po.get('poster'),
             'genres':po.get('genres') or [],'director':'','production':'',
-            'synopsis':po.get('description',''),'rating':po.get('rating')})
+            'rating':po.get('rating'),
+            'original_guess':guess_original(r.get('version_slug')),
+            'release_year':(r.get('release_date') or '')[:4] or None})
         end=(r['ends_at'][:10],r['ends_at'][11:16]) if r.get('ends_at') else plus_minutes(r['date'],r['time'],r.get('perf_minutes'))
         screenings.append({'date':r['date'],'time':r['time'],'film_key':key,'film_it':it,'film_original':orig,
             'cinema':'UCI Cinemas Verona','audio':audio,'subs':subs,'category':category(audio,subs),
@@ -239,7 +274,7 @@ def build():
             raw_it,orig=split_title(f['title']); it=display(raw_it); key=fkey(it)
             audio,src=infer_audio(f['director'],f['production'])
             fm=films.setdefault(key,{'film_it':it,'film_original':orig,'poster_url':f.get('poster'),
-                'genres':[],'director':f['director'],'production':f['production'],'synopsis':'','rating':None})
+                'genres':[],'director':f['director'],'production':f['production'],'rating':None})
             for fld,val in (('director',f['director']),('production',f['production']),
                             ('film_original',orig),('poster_url',f.get('poster'))):
                 if not fm.get(fld) and val: fm[fld]=val
@@ -257,6 +292,9 @@ def build():
 
     screenings=[s for s in screenings if s['date']>=TODAY.isoformat()]
     screenings.sort(key=lambda s:(s['date'],s['time'],s['cinema'],s['film_it']))
+
+    # ---- trailer links
+    for fm in films.values(): fm['trailer_url']=trailer_search(fm)
 
     # ---- diff against the previous run
     def ident(s): return (s['film_it'],s['cinema'],s['date'],s['time'])
@@ -283,9 +321,6 @@ def build():
         if not os.path.exists(dst):
             subprocess.run(['curl','-sL','--max-time','60','-o',dst,u],check=False)
         fm['poster']=rel if os.path.exists(dst) and os.path.getsize(dst)>1000 else None
-    used={f"{k}" for k in films}
-    for p in glob.glob(os.path.join(ROOT,'posters','*')):
-        if os.path.splitext(os.path.basename(p))[0] not in used: os.remove(p)
 
     # ---- sources
     sources={}
@@ -302,24 +337,77 @@ def build():
         'missing_dates':gaps,'api':UCI_API.format(slug=UCI_SLUG,date='{YYYY-MM-DD}'),
         'probed_through':probed[-1] if probed else ''}
 
-    data={'built_at':NOW.strftime('%Y-%m-%dT%H:%M:%S'),'timezone':TZ_LABEL,
+    content_hash=hashlib.sha256(json.dumps(
+        {'screenings':[{k:v for k,v in s.items() if k not in ('first_seen','is_new')} for s in screenings],
+         'films':films,'theaters':THEATERS},
+        sort_keys=True,ensure_ascii=False).encode()).hexdigest()[:16]
+
+    data={'built_at':NOW.strftime('%Y-%m-%dT%H:%M:%S'),'timezone':TZ_LABEL,'content_hash':content_hash,
           'theaters':THEATERS,'sources':sources,'films':films,'screenings':screenings,
           'removed_since_last_run':removed,
           'previous_run':prev.get('built_at')}
-    json.dump(data,open(JSON_PATH,'w'),ensure_ascii=False,indent=1)
 
     cc=collections.Counter(s['category'] for s in screenings)
     log(f"\n  {len(screenings)} qualifying showtimes  {dict(cc)}")
     log(f"  {len(films)} films, {sum(1 for f in films.values() if not f['poster'])} without a poster")
     if prev: log(f"  {new_count} new since {prev.get('built_at','?')[:16]}, {len(removed)} removed")
     else:    log("  first run — nothing to compare against")
-    for u,s in sources.items():
-        if s['status']!='ok': log(f"  !! SOURCE FAILED: {s['cinema']} {u}")
+    for u,src in sources.items():
+        if src['status']!='ok': log(f"  !! SOURCE FAILED: {src['cinema']} {u}")
+
+    bits=[f"{len(screenings)} showtimes", f"{len(films)} films"]
+    if prev: bits.append(f"{new_count} new, {len(removed)} gone")
+    open(os.path.join(ROOT,'build','summary.txt'),'w').write(', '.join(bits)+'\n')
+
+    data['_check']={'unchanged':bool(prev) and prev.get('content_hash')==content_hash,
+                    'screenings':len(screenings),'films':len(films),'new':new_count,
+                    'removed':len(removed),'uci_performances':len(urows),
+                    'failed_sources':[src['cinema'] for src in sources.values() if src['status']!='ok']}
     return data
+
+def prune_posters(films):
+    """Drop poster files no film references any more. Only safe once the scrape
+    has passed validation -- a failed scrape sees few films and would delete the rest."""
+    used={k for k in films}
+    gone=0
+    for p in glob.glob(os.path.join(ROOT,'posters','*')):
+        if os.path.splitext(os.path.basename(p))[0] not in used:
+            os.remove(p); gone+=1
+    if gone: log(f"  pruned {gone} unused poster(s)")
+
+def validate(data):
+    """Refuse to publish a scrape that clearly went wrong.
+
+    A genuinely quiet week is possible, so the gate checks that the SOURCES were
+    read -- not that any particular film is showing."""
+    c=data['_check']; problems=[]
+    if c['failed_sources']:
+        problems.append('source(s) unreadable: '+', '.join(c['failed_sources']))
+    if c['uci_performances']==0:
+        problems.append('UCI returned no performances at all for any date '
+                        '(the API is reachable but empty, or the fetch was blocked)')
+    for u,src in data['sources'].items():
+        if src['cinema']!='UCI Cinemas Verona' and not src['dates_covered']:
+            problems.append(f"{src['cinema']} page parsed to zero showtimes")
+    return problems
 
 if __name__=='__main__':
     if FETCH: log("fetching sources..."); fetch()
     else: log("using cached raw scrape")
-    build()
+    data=build()
+    problems=validate(data)
+    if problems:
+        log("\nREFUSING TO PUBLISH \u2014 the scrape does not look healthy:")
+        for p in problems: log("  - "+p)
+        log("\nNothing was written: the existing schedule and page are left untouched.")
+        sys.exit(2)
+    if data['_check']['unchanged'] and not FORCE and os.path.exists(os.path.join(ROOT,'index.html')):
+        log("\nno change since the last run \u2014 leaving every file untouched")
+        log("(pass --force to rebuild anyway, e.g. after editing gen_site.py)")
+        open(os.path.join(ROOT,'build','summary.txt'),'w').write('no change\n')
+        sys.exit(0)
+    json.dump(data,open(JSON_PATH,'w'),ensure_ascii=False,indent=1)
+    prune_posters(data['films'])
     for step in ('gen_md.py','gen_site.py'):
         subprocess.run([sys.executable,'-I',os.path.join(ROOT,step)],check=True)
+    log("\nok")

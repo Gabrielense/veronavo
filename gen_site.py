@@ -85,7 +85,13 @@ h2 .count{color:var(--dim);font-weight:400;font-size:.85rem;margin-left:6px}
 .film>img{width:118px;height:176px;object-fit:cover;border-radius:10px;background:var(--bg2);display:block}
 .film h3{margin:0 0 2px;font-size:1.16rem;line-height:1.2;letter-spacing:-.01em}
 .film .fmeta{color:var(--dim);font-size:.83rem;margin:0 0 9px}
-.film .bl{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:11px}
+.film .bl{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:11px;align-items:center}
+.flink{font-size:.75rem;font-weight:600;text-decoration:none;padding:3px 10px;border-radius:999px;
+ border:1px solid var(--line);background:var(--bg2);color:var(--dim)}
+.flink.tr{color:var(--accent);border-color:color-mix(in srgb,var(--accent) 42%,transparent)}
+.flink:hover{filter:brightness(1.25)}
+.syn.en{color:#c3cad6}
+.synsrc{font-size:.72rem;color:var(--dim);margin:-6px 0 11px}
 .syn{color:var(--dim);font-size:.84rem;line-height:1.5;margin:0 0 11px;
  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .shows{display:flex;flex-direction:column;gap:5px}
@@ -254,7 +260,8 @@ function renderFilms(){
   const cats=[...new Set(ss.map(s=>s.category))];
   const badges=cats.map(c=>{
     const ex=ss.find(s=>s.category===c);
-    return `<span class="badge b-${c}">${langTxt(ex)}</span>`;}).join('');
+    return `<span class="badge b-${c}">${langTxt(ex)}</span>`;}).join('')+
+   (f.trailer_url?`<a class="flink tr" href="${esc(f.trailer_url)}" target="_blank" rel="noopener noreferrer">Trailer \u2197</a>`:'');
   const bits=[];
   if(f.genres&&f.genres.length)bits.push(esc(f.genres.join(', ')));
   if(first.runtime_min)bits.push(first.runtime_min+' min');
@@ -270,7 +277,7 @@ function renderFilms(){
     <h3>${filmTitle(first)}</h3>
     <p class="fmeta">${bits.filter(Boolean).join(' &middot; ')}</p>
     <div class="bl">${badges}</div>`+
-    (f.synopsis?`<p class="syn">${esc(f.synopsis)}</p>`:'')+
+
     `<div class="shows">${shown.map(showtimeRow).join('')}</div>${more}</div></article>`;
  }).join('');
  el.querySelectorAll('.more').forEach(b=>b.onclick=()=>{

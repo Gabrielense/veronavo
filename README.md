@@ -70,6 +70,19 @@ showtimes are flagged `is_new`, and future showtimes that have disappeared are l
 `python3 build/update.py --no-fetch` rebuilds from the cached scrape in `build/raw/`
 (not committed) without touching the network.
 
+## Trailers, and why there are no synopses
+
+Each film links to a **YouTube search** for its exact title and year, not to a
+specific video. Resolving a real trailer id means matching our film against a
+third-party database, and that matching is what goes wrong: an attempt at it paired
+*Scrooge: Gli spiriti del Natale* (2026, Ti West) with *Ebenezer* (1998, a Jack
+Palance TV film) — same title family, wrong film. A search for the right title can't
+be wrong about which film it means and never goes stale.
+
+Synopses were dropped for the same reason. The only synopsis either source provides
+is UCI's, in Italian, and pulling English ones meant the same fragile matching. The
+poster, title, runtime, director and trailer carry the card without it.
+
 ## Caveats
 
 - UCI's printed time is the **admission** time; the film starts about 25 minutes later

@@ -1,4 +1,4 @@
-# Verona original-language screenings — updated 2026-11-18 12:13 (Europe/Rome)
+# Verona original-language screenings — updated 2026-11-18 12:32 (Europe/Rome)
 
 43 qualifying showtimes across 3 of the 5 cinemas tracked.
 
