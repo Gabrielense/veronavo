@@ -2,3 +2,4 @@
 build/raw/
 .DS_Store
 build/summary.txt
+build/release-notes.md

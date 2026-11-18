@@ -237,7 +237,7 @@ function showtimeRow(s){
  const t=parseD(s.date);
  const dd=WD[t.getDay()].slice(0,3)+' '+t.getDate()+' '+MO[t.getMonth()].slice(0,3);
  const where=esc(s.cinema)+(s.room?' &middot; '+esc(s.room):'')+(s.format?' &middot; '+esc(s.format):'')+
-   (s.price_from?' &middot; from &euro;'+esc(s.price_from):'');
+   (s.price_from?' &middot; from &euro;'+(+s.price_from).toFixed(2):'');
  const acts=(s.ticket_url
    ?`<a class="buy" href="${esc(s.ticket_url)}" target="_blank" rel="noopener noreferrer">Buy</a>`
    :`<span class="box">Box office</span>`)+
@@ -312,7 +312,7 @@ function renderSchedule(){
      (s.format?`<span class="fmt">${esc(s.format)}</span>`:'')+
      `</div><div class="meta"><span>${esc(s.cinema)}</span>`+
      (s.room?`<span>&middot; ${esc(s.room)}</span>`:'')+
-     (s.price_from?`<span>&middot; from &euro;${esc(s.price_from)}</span>`:'')+
+     (s.price_from?`<span>&middot; from &euro;${(+s.price_from).toFixed(2)}</span>`:'')+
      `<span>&middot; marked <code>${esc(s.marker)}</code></span></div></div>
      <div class="acts">${actions(s)}</div></article>`;
    }).join('')+`</section>`;

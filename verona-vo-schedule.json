@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-18T12:32:54",
+ "built_at": "2026-11-18T13:01:30",
  "timezone": "Europe/Rome",
  "content_hash": "bd4f8fb8388fd681",
  "theaters": {
@@ -1218,14 +1218,5 @@
   }
  ],
  "removed_since_last_run": [],
- "previous_run": "2026-11-18T12:32:45",
- "_check": {
-  "unchanged": false,
-  "screenings": 43,
-  "films": 12,
-  "new": 0,
-  "removed": 0,
-  "uci_performances": 559,
-  "failed_sources": []
- }
+ "previous_run": "2026-11-18T13:01:06"
 }

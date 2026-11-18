@@ -43,6 +43,20 @@ jobs:
           git push
           echo "Pushed: ${SUMMARY}"
 
+      - name: Publish a release describing what changed
+        # build/update.py writes release-notes.md only when showtimes actually
+        # appeared or disappeared, so no notes means nothing worth announcing.
+        if: hashFiles('build/release-notes.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          SUMMARY="$(cat build/summary.txt 2>/dev/null || echo 'schedule updated')"
+          TAG="schedule-$(date -u +%Y%m%d-%H%M)"
+          gh release create "$TAG" \
+            --title "Verona original-language schedule - ${SUMMARY}" \
+            --notes-file build/release-notes.md
+          echo "Released $TAG"
+
       - name: Summary
         if: always()
         run: |
@@ -52,4 +66,8 @@ jobs:
             echo '```'
             cat build/summary.txt 2>/dev/null || echo "run did not produce a summary"
             echo '```'
+            if [ -f build/release-notes.md ]; then
+              echo ""
+              cat build/release-notes.md
+            fi
           } >> "$GITHUB_STEP_SUMMARY"

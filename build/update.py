@@ -20,6 +20,7 @@ import json,os,re,sys,html,glob,datetime,urllib.parse,subprocess,collections,has
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW=os.path.join(ROOT,'build','raw')
 JSON_PATH=os.path.join(ROOT,'verona-vo-schedule.json')
+NOTES_PATH=os.path.join(ROOT,'build','release-notes.md')
 FETCH='--no-fetch' not in sys.argv
 FORCE='--force' in sys.argv
 
@@ -345,7 +346,8 @@ def build():
     data={'built_at':NOW.strftime('%Y-%m-%dT%H:%M:%S'),'timezone':TZ_LABEL,'content_hash':content_hash,
           'theaters':THEATERS,'sources':sources,'films':films,'screenings':screenings,
           'removed_since_last_run':removed,
-          'previous_run':prev.get('built_at')}
+          'previous_run':prev.get('built_at'),
+          '_prev_raw':prev}
 
     cc=collections.Counter(s['category'] for s in screenings)
     log(f"\n  {len(screenings)} qualifying showtimes  {dict(cc)}")
@@ -364,6 +366,72 @@ def build():
                     'removed':len(removed),'uci_performances':len(urows),
                     'failed_sources':[src['cinema'] for src in sources.values() if src['status']!='ok']}
     return data
+
+WD_S=['Mon','Tue','Wed','Thu','Fri','Sat','Sun']
+MO_S=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+def nice_date(iso):
+    try:
+        d=datetime.date.fromisoformat(iso)
+        return f"{WD_S[d.weekday()]} {d.day} {MO_S[d.month-1]}"
+    except Exception:
+        return iso
+
+def lang_phrase(s):
+    subs='no subtitles' if s.get('subs')=='none' else f"{s.get('subs')} subtitles"
+    return f"{s.get('audio')} audio, {subs}"
+
+PER_FILM_CAP=10
+def write_release_notes(data,prev,removed):
+    """A release body that states the actual change, film by film.
+
+    The point is that the notification email is readable on its own -- you should not
+    have to open the site to find out what moved."""
+    if os.path.exists(NOTES_PATH): os.remove(NOTES_PATH)
+    if not prev: return False          # first run: nothing to compare, no release
+    new=[s for s in data['screenings'] if s.get('is_new')]
+    if not new and not removed: return False
+
+    prev_films={s['film_it'] for s in (prev.get('screenings') or [])}
+    out=[]
+    if new:
+        by={}
+        for s in new: by.setdefault(s['film_it'],[]).append(s)
+        out.append(f"## {len(new)} new showtime{'s' if len(new)!=1 else ''}\n")
+        for title in sorted(by,key=lambda t:by[t][0]['date']):
+            ss=sorted(by[title],key=lambda s:(s['date'],s['time']))
+            first=' \u2014 **new to the schedule**' if title not in prev_films else ''
+            out.append(f"**{title}**{first}  ")
+            out.append(f"_{lang_phrase(ss[0])}_\n")
+            for s in ss[:PER_FILM_CAP]:
+                where=s['cinema']+(f" \u00b7 {s['room']}" if s.get('room') else '')+ \
+                      (f" \u00b7 {s['format']}" if s.get('format') else '')
+                line=f"- {nice_date(s['date'])} at **{s['time']}** \u2014 {where}"
+                if s.get('price_from'): line+=f" \u00b7 from \u20ac{float(s['price_from']):.2f}"
+                if s.get('ticket_url'): line+=f" \u00b7 [buy]({s['ticket_url']})"
+                else: line+=" \u00b7 box office only"
+                out.append(line)
+            if len(ss)>PER_FILM_CAP:
+                out.append(f"- \u2026and {len(ss)-PER_FILM_CAP} more showtime(s) for this film")
+            out.append("")
+    if removed:
+        out.append(f"## {len(removed)} showtime{'s' if len(removed)!=1 else ''} no longer listed\n")
+        for r in sorted(removed,key=lambda r:(r['date'],r['time'])):
+            out.append(f"- {nice_date(r['date'])} at {r['time']} \u2014 {r['film']}, {r['cinema']}")
+        out.append("")
+
+    cats={}
+    for s in data['screenings']: cats[s['category']]=cats.get(s['category'],0)+1
+    label={'english_audio':'English audio','english_subs':'English subtitles',
+           'spanish':'Spanish','other':'other original version'}
+    parts=[f"{v} {label.get(k,k)}" for k,v in sorted(cats.items(),key=lambda x:-x[1])]
+    out.append("---\n")
+    out.append(f"Now listing **{len(data['screenings'])} showtimes** across "
+               f"{len({s['cinema'] for s in data['screenings']})} cinemas: "+", ".join(parts)+".")
+    cov=[f"{src['cinema']} {src['dates_covered']}" for src in data['sources'].values() if src.get('dates_covered')]
+    out.append("\nCoverage: "+"; ".join(cov)+".")
+    out.append("\nUCI's printed time is the admission time \u2014 the film starts about 25 minutes later.")
+    open(NOTES_PATH,'w').write('\n'.join(out)+'\n')
+    return True
 
 def prune_posters(films):
     """Drop poster files no film references any more. Only safe once the scrape
@@ -406,8 +474,13 @@ if __name__=='__main__':
         log("(pass --force to rebuild anyway, e.g. after editing gen_site.py)")
         open(os.path.join(ROOT,'build','summary.txt'),'w').write('no change\n')
         sys.exit(0)
+    # internal keys must not reach the committed file
+    prev_raw=data.pop('_prev_raw',None)
+    data.pop('_check',None)
     json.dump(data,open(JSON_PATH,'w'),ensure_ascii=False,indent=1)
     prune_posters(data['films'])
+    if write_release_notes(data,prev_raw,data['removed_since_last_run']):
+        log(f"  wrote release notes -> {os.path.relpath(NOTES_PATH,ROOT)}")
     for step in ('gen_md.py','gen_site.py'):
         subprocess.run([sys.executable,'-I',os.path.join(ROOT,step)],check=True)
     log("\nok")

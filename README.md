@@ -66,6 +66,12 @@ update on demand. Both sources are plain HTTP, so no browser is involved.
 If a source cannot be read the run fails loudly and publishes nothing, rather than
 quietly committing an emptied schedule.
 
+When showtimes do appear or disappear, the run also publishes a **GitHub release**
+whose notes spell out the change film by film — each new showtime with its date,
+time, cinema, screen, price and buy link, and each showtime that is gone. Watch the
+repository (**Watch → Custom → Releases**) to get that as an email; it only fires on
+real changes, not on the quiet days.
+
 To run it yourself:
 
 ```
