@@ -45,6 +45,7 @@ it was decided in its `lang_source` field, e.g.
 ## Files
 
 ```
+.github/workflows/         scheduled auto-update (daily)
 index.html                 the site (generated; data inlined)
 verona-vo-schedule.json    the data + source coverage
 verona-vo-schedule.md      the same schedule as readable Markdown
@@ -56,6 +57,16 @@ uci-api-notes.md           how UCI's showtimes are actually obtained
 ```
 
 ## Updating
+
+It updates itself. `.github/workflows/update-schedule.yml` runs daily at 05:20 UTC
+(06:20/07:20 in Verona), rebuilds everything and commits only when the listings
+actually changed. There is also a **Run workflow** button on the Actions tab for an
+update on demand. Both sources are plain HTTP, so no browser is involved.
+
+If a source cannot be read the run fails loudly and publishes nothing, rather than
+quietly committing an emptied schedule.
+
+To run it yourself:
 
 ```
 python3 build/update.py

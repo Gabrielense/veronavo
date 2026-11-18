@@ -1,0 +1,55 @@
+name: Update schedule
+
+# Both cinema sources are plain HTTP (UCI via its backend JSON API), so this needs
+# no browser and runs fine on a hosted runner.
+on:
+  schedule:
+    - cron: '20 5 * * *'      # 05:20 UTC = 06:20 or 07:20 in Verona
+  workflow_dispatch:           # "Run workflow" button, for an update on demand
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-schedule
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'   # stdlib only, no dependencies to install
+
+      - name: Rebuild the schedule
+        # Exits 2 if a source could not be read, which fails the job on purpose:
+        # better a visible failed run than a silently emptied schedule.
+        run: python3 build/update.py
+
+      - name: Commit and push if anything changed
+        run: |
+          if git diff --quiet && git diff --cached --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo "No change in the listings - nothing to commit."
+            exit 0
+          fi
+          SUMMARY="$(cat build/summary.txt 2>/dev/null || echo 'schedule refreshed')"
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Refresh schedule: ${SUMMARY}"
+          git push
+          echo "Pushed: ${SUMMARY}"
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "### Verona schedule update"
+            echo ""
+            echo '```'
+            cat build/summary.txt 2>/dev/null || echo "run did not produce a summary"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
