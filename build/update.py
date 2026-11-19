@@ -241,7 +241,6 @@ def build():
     if os.path.exists(JSON_PATH):
         try: prev=json.load(open(JSON_PATH))
         except Exception: prev={}
-
     fi=parse_fiume(); urows,uposters,probed=parse_uci()
     screenings=[];films={}
 

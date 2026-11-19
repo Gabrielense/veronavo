@@ -1,7 +1,7 @@
 {
- "built_at": "2026-11-19T14:27:38",
+ "built_at": "2026-11-19T15:35:38",
  "timezone": "Europe/Rome",
- "content_hash": "80fd21a593d9e2fa",
+ "content_hash": "c65545bbdfc91630",
  "theaters": {
   "UCI Cinemas Verona": {
    "address": "Via Monte Amiata, 37057 San Giovanni Lupatoto VR",
@@ -1113,25 +1113,6 @@
    "is_new": false
   }
  ],
- "removed_since_last_run": [
-  {
-   "film": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING C.A.",
-   "cinema": "UCI Cinemas Verona",
-   "date": "2026-11-21",
-   "time": "11:45"
-  },
-  {
-   "film": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING C.A.",
-   "cinema": "UCI Cinemas Verona",
-   "date": "2026-11-21",
-   "time": "16:00"
-  },
-  {
-   "film": "BTS WORLD TOUR 'ARIRANG' IN JAKARTA: LIVE VIEWING C.A.",
-   "cinema": "UCI Cinemas Verona",
-   "date": "2026-12-29",
-   "time": "12:45"
-  }
- ],
- "previous_run": "2026-11-18T12:02:41"
+ "removed_since_last_run": [],
+ "previous_run": "2026-11-19T14:27:38"
 }
