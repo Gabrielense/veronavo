@@ -1,7 +1,7 @@
 {
- "built_at": "2026-11-18T12:02:41",
+ "built_at": "2026-11-19T14:27:38",
  "timezone": "Europe/Rome",
- "content_hash": "bd4f8fb8388fd681",
+ "content_hash": "80fd21a593d9e2fa",
  "theaters": {
   "UCI Cinemas Verona": {
    "address": "Via Monte Amiata, 37057 San Giovanni Lupatoto VR",
@@ -50,79 +50,41 @@
   "https://cinemafiume.it/cinema/cinema-kappadue/": {
    "cinema": "Cinema Kappadue",
    "status": "ok",
-   "dates_covered": "2026-11-18..2027-01-18",
+   "dates_covered": "2026-11-20..2027-01-18",
    "missing_dates": [],
    "vo_footnote_present": true
   },
   "https://cinemafiume.it/cinema/cinema-diamante/": {
    "cinema": "Cinema Diamante",
    "status": "ok",
-   "dates_covered": "2026-11-18..2027-01-28",
+   "dates_covered": "2026-11-19..2027-01-28",
    "missing_dates": [],
    "vo_footnote_present": true
   },
   "https://cinemafiume.it/cinema/cinema-fiume/": {
    "cinema": "Cinema Fiume",
    "status": "ok",
-   "dates_covered": "2026-11-18..2027-01-21",
+   "dates_covered": "2026-11-19..2027-01-21",
    "missing_dates": [],
    "vo_footnote_present": false
   },
   "https://cinemafiume.it/cinema/cinema-pindemonte/": {
    "cinema": "Cinema Pindemonte",
    "status": "ok",
-   "dates_covered": "2026-11-18..2026-12-18",
+   "dates_covered": "2026-11-19..2026-12-18",
    "missing_dates": [],
    "vo_footnote_present": false
   },
   "https://www.ucicinemas.it/cinema/veneto/verona/uci-cinemas-verona/": {
    "cinema": "UCI Cinemas Verona",
    "status": "ok",
-   "dates_covered": "2026-11-18..2026-12-30",
-   "missing_dates": [
-    "2026-12-10",
-    "2026-12-11",
-    "2026-12-12",
-    "2026-12-13",
-    "2026-12-14"
-   ],
+   "dates_covered": "2026-11-19..2026-12-30",
+   "missing_dates": [],
    "api": "https://backend.ucicinemas.it/api/theatres/uci-cinemas-verona/programming/{YYYY-MM-DD}",
-   "probed_through": "2027-04-06"
+   "probed_through": "2027-04-07"
   }
  },
  "films": {
-  "godzilla-minus-zero": {
-   "film_it": "Godzilla Minus Zero",
-   "film_original": "",
-   "poster_url": "https://storage.googleapis.com/uci-infrastructure-bucket/Common/Movies/Posters/r3SolniTWf61ukz9xs4WIhVPO96u53UsR5ztZvB0_resized_at_20261013172241.jpg",
-   "genres": [
-    "Azione",
-    "Fantascienza"
-   ],
-   "director": "",
-   "production": "",
-   "rating": "6+",
-   "original_guess": "godzilla minus zero",
-   "release_year": "2026",
-   "trailer_url": "https://www.youtube.com/results?search_query=Godzilla+Minus+Zero+trailer+2026",
-   "poster": "posters/godzilla-minus-zero.jpg"
-  },
-  "scrooge-gli-spiriti-del-natale": {
-   "film_it": "Scrooge: Gli spiriti del Natale",
-   "film_original": "",
-   "poster_url": "https://storage.googleapis.com/uci-infrastructure-bucket/Common/Movies/Posters/Hnni6ms4rdQXZgRuFYkpGiESZFL9fJ0WD0HYgVdM_resized_at_20261104101830.jpg",
-   "genres": [
-    "Commedia",
-    "Fantasy"
-   ],
-   "director": "",
-   "production": "",
-   "rating": "VM10",
-   "original_guess": "ebenezer",
-   "release_year": null,
-   "trailer_url": "https://www.youtube.com/results?search_query=Scrooge%3A+Gli+spiriti+del+Natale+trailer",
-   "poster": "posters/scrooge-gli-spiriti-del-natale.jpg"
-  },
   "hunger-games-l-alba-sulla-mietitura": {
    "film_it": "Hunger Games: L'alba sulla mietitura",
    "film_original": "",
@@ -141,7 +103,7 @@
    "poster": "posters/hunger-games-l-alba-sulla-mietitura.jpg"
   },
   "bts-world-tour-arirang-in-kaohsiung-live-viewing-c-a": {
-   "film_it": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING C.A.",
+   "film_it": "BTS World Tour ‘ARIRANG’ In Kaohsiung: Live Viewing C.A.",
    "film_original": "",
    "poster_url": "https://storage.googleapis.com/uci-infrastructure-bucket/Common/Movies/Posters/aYiMUd81MZd0Xh89ce5NEWNWaUAea3L0cOgR6Rh9_resized_at_20261103094616.jpg",
    "genres": [
@@ -152,7 +114,7 @@
    "rating": "T",
    "original_guess": "bts wt arirang in kao live",
    "release_year": "2026",
-   "trailer_url": "https://www.youtube.com/results?search_query=BTS+WORLD+TOUR+%27ARIRANG%27+IN+KAOHSIUNG%3A+LIVE+VIEWING+trailer+2026",
+   "trailer_url": "https://www.youtube.com/results?search_query=BTS+World+Tour+%E2%80%98ARIRANG%E2%80%99+In+Kaohsiung%3A+Live+Viewing+trailer+2026",
    "poster": "posters/bts-world-tour-arirang-in-kaohsiung-live-viewing-c-a.jpg"
   },
   "ti-presento-i-fotter": {
@@ -221,7 +183,7 @@
    "poster": "posters/dune-parte-tre.jpg"
   },
   "bts-world-tour-arirang-in-jakarta-live-viewing-c-a": {
-   "film_it": "BTS WORLD TOUR 'ARIRANG' IN JAKARTA: LIVE VIEWING C.A.",
+   "film_it": "BTS World Tour ‘ARIRANG’ In Jakarta: Live Viewing C.A.",
    "film_original": "",
    "poster_url": "https://storage.googleapis.com/uci-infrastructure-bucket/Common/Movies/Posters/kid7RB8P4zaXS9ocbvCLS0GAko4kVU0B6Yfr0HXs_resized_at_20261109103950.jpg",
    "genres": [
@@ -232,7 +194,7 @@
    "rating": null,
    "original_guess": "bts wt arirang in jakartalive",
    "release_year": "2026",
-   "trailer_url": "https://www.youtube.com/results?search_query=BTS+WORLD+TOUR+%27ARIRANG%27+IN+JAKARTA%3A+LIVE+VIEWING+trailer+2026",
+   "trailer_url": "https://www.youtube.com/results?search_query=BTS+World+Tour+%E2%80%98ARIRANG%E2%80%99+In+Jakarta%3A+Live+Viewing+trailer+2026",
    "poster": "posters/bts-world-tour-arirang-in-jakarta-live-viewing-c-a.jpg"
   },
   "wild-horse-nine": {
@@ -270,72 +232,6 @@
   }
  },
  "screenings": [
-  {
-   "date": "2026-11-18",
-   "time": "18:45",
-   "film_key": "scrooge-gli-spiriti-del-natale",
-   "film_it": "Scrooge: Gli spiriti del Natale",
-   "film_original": "",
-   "cinema": "UCI Cinemas Verona",
-   "audio": "EN",
-   "subs": "IT",
-   "category": "english_audio",
-   "format": "",
-   "room": "SALA 08",
-   "price_from": "6.9",
-   "marker": "ENG / sottotitoli ITA",
-   "lang_source": "badge",
-   "end_time": "20:43",
-   "runtime_min": 118,
-   "ticket_url": "https://www.ucicinemas.it/movies/scrooge-gli-spiriti-del-natale/acquista/5116/10037/578691",
-   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Scrooge%3A+Gli+spiriti+del+Natale+%E2%80%94+UCI+Cinemas+Verona&dates=20261118T184500%2F20261118T204300&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+08.+Admission+time+18%3A45%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
-   "first_seen": "2026-11-18",
-   "is_new": false
-  },
-  {
-   "date": "2026-11-18",
-   "time": "20:30",
-   "film_key": "godzilla-minus-zero",
-   "film_it": "Godzilla Minus Zero",
-   "film_original": "",
-   "cinema": "UCI Cinemas Verona",
-   "audio": "JA",
-   "subs": "IT",
-   "category": "other",
-   "format": "",
-   "room": "SALA 05",
-   "price_from": "6.9",
-   "marker": "JP / sottotitoli ITA",
-   "lang_source": "badge",
-   "end_time": "22:45",
-   "runtime_min": 135,
-   "ticket_url": "https://www.ucicinemas.it/movies/godzilla-minus-zero/acquista/5116/9949/578683",
-   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Godzilla+Minus+Zero+%E2%80%94+UCI+Cinemas+Verona&dates=20261118T203000%2F20261118T224500&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=JA+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+05.+Admission+time+20%3A30%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
-   "first_seen": "2026-11-18",
-   "is_new": false
-  },
-  {
-   "date": "2026-11-18",
-   "time": "21:00",
-   "film_key": "wild-horse-nine",
-   "film_it": "Wild Horse Nine",
-   "film_original": "",
-   "cinema": "Cinema Kappadue",
-   "audio": "EN",
-   "subs": "IT",
-   "category": "english_audio",
-   "format": "",
-   "room": null,
-   "price_from": null,
-   "marker": "21:00*",
-   "lang_source": "inferred: production USA/G.B. 2026, director Martin McDonagh",
-   "end_time": "22:56",
-   "runtime_min": 116,
-   "ticket_url": null,
-   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wild+Horse+Nine+%E2%80%94+Cinema+Kappadue&dates=20261118T210000%2F20261118T225600&location=Via+Antonio+Rosmini+1%2C+37123+Verona&details=Original+version+with+Italian+subtitles+%28marked+21%3A00%2A+on+the+programme%29.+Audio+language+EN+%28inferred%3A+production+USA%2FG.B.+2026%2C+director+Martin+McDonagh%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome",
-   "first_seen": "2026-11-18",
-   "is_new": false
-  },
   {
    "date": "2026-11-19",
    "time": "18:30",
@@ -428,7 +324,7 @@
    "date": "2026-11-21",
    "time": "11:45",
    "film_key": "bts-world-tour-arirang-in-kaohsiung-live-viewing-c-a",
-   "film_it": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING C.A.",
+   "film_it": "BTS World Tour ‘ARIRANG’ In Kaohsiung: Live Viewing C.A.",
    "film_original": "",
    "cinema": "UCI Cinemas Verona",
    "audio": "KO",
@@ -442,9 +338,9 @@
    "end_time": "15:00",
    "runtime_min": 195,
    "ticket_url": "https://www.ucicinemas.it/movies/bts-world-tour-arirang-live-viewing/acquista/5116/10045/578175",
-   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=BTS+WORLD+TOUR+%27ARIRANG%27+IN+KAOHSIUNG%3A+LIVE+VIEWING+C.A.+%E2%80%94+UCI+Cinemas+Verona&dates=20261121T114500%2F20261121T150000&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=KO+audio%2C+subtitles+EN+%E2%80%94+2D%2C+SALA+06.+Admission+time+11%3A45%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
-   "first_seen": "2026-11-18",
-   "is_new": false
+   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=BTS+World+Tour+%E2%80%98ARIRANG%E2%80%99+In+Kaohsiung%3A+Live+Viewing+C.A.+%E2%80%94+UCI+Cinemas+Verona&dates=20261121T114500%2F20261121T150000&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=KO+audio%2C+subtitles+EN+%E2%80%94+2D%2C+SALA+06.+Admission+time+11%3A45%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
+   "first_seen": "2026-11-19",
+   "is_new": true
   },
   {
    "date": "2026-11-21",
@@ -472,7 +368,7 @@
    "date": "2026-11-21",
    "time": "16:00",
    "film_key": "bts-world-tour-arirang-in-kaohsiung-live-viewing-c-a",
-   "film_it": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING C.A.",
+   "film_it": "BTS World Tour ‘ARIRANG’ In Kaohsiung: Live Viewing C.A.",
    "film_original": "",
    "cinema": "UCI Cinemas Verona",
    "audio": "KO",
@@ -486,9 +382,9 @@
    "end_time": "19:15",
    "runtime_min": 195,
    "ticket_url": "https://www.ucicinemas.it/movies/bts-world-tour-arirang-live-viewing/acquista/5116/10045/578176",
-   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=BTS+WORLD+TOUR+%27ARIRANG%27+IN+KAOHSIUNG%3A+LIVE+VIEWING+C.A.+%E2%80%94+UCI+Cinemas+Verona&dates=20261121T160000%2F20261121T191500&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=KO+audio%2C+subtitles+EN+%E2%80%94+2D%2C+SALA+06.+Admission+time+16%3A00%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
-   "first_seen": "2026-11-18",
-   "is_new": false
+   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=BTS+World+Tour+%E2%80%98ARIRANG%E2%80%99+In+Kaohsiung%3A+Live+Viewing+C.A.+%E2%80%94+UCI+Cinemas+Verona&dates=20261121T160000%2F20261121T191500&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=KO+audio%2C+subtitles+EN+%E2%80%94+2D%2C+SALA+06.+Admission+time+16%3A00%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
+   "first_seen": "2026-11-19",
+   "is_new": true
   },
   {
    "date": "2026-11-22",
@@ -1104,7 +1000,7 @@
    "ticket_url": "https://www.ucicinemas.it/movies/dune-parte-tre/acquista/5116/9802/577666",
    "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Dune%3A+Parte+Tre+%E2%80%94+UCI+Cinemas+Verona&dates=20261223T112000%2F20261223T134000&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+04.+Admission+time+11%3A20%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
    "first_seen": "2026-11-18",
-   "is_new": true
+   "is_new": false
   },
   {
    "date": "2026-12-23",
@@ -1170,13 +1066,13 @@
    "ticket_url": "https://www.ucicinemas.it/movies/avengers-doomsday/acquista/5116/9899/576891",
    "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Avengers%3A+Doomsday+%E2%80%94+UCI+Cinemas+Verona&dates=20261224T204000%2F20261224T233000&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+08.+Admission+time+20%3A40%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
    "first_seen": "2026-11-18",
-   "is_new": true
+   "is_new": false
   },
   {
    "date": "2026-12-29",
    "time": "12:45",
    "film_key": "bts-world-tour-arirang-in-jakarta-live-viewing-c-a",
-   "film_it": "BTS WORLD TOUR 'ARIRANG' IN JAKARTA: LIVE VIEWING C.A.",
+   "film_it": "BTS World Tour ‘ARIRANG’ In Jakarta: Live Viewing C.A.",
    "film_original": "",
    "cinema": "UCI Cinemas Verona",
    "audio": "KO",
@@ -1190,9 +1086,9 @@
    "end_time": "16:00",
    "runtime_min": 195,
    "ticket_url": "https://www.ucicinemas.it/movies/bts-world-tour-arirang-in-jakarta-live-viewing/acquista/5116/10043/578177",
-   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=BTS+WORLD+TOUR+%27ARIRANG%27+IN+JAKARTA%3A+LIVE+VIEWING+C.A.+%E2%80%94+UCI+Cinemas+Verona&dates=20261229T124500%2F20261229T160000&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=KO+audio%2C+subtitles+EN+%E2%80%94+2D%2C+SALA+06.+Admission+time+12%3A45%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
-   "first_seen": "2026-11-18",
-   "is_new": false
+   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=BTS+World+Tour+%E2%80%98ARIRANG%E2%80%99+In+Jakarta%3A+Live+Viewing+C.A.+%E2%80%94+UCI+Cinemas+Verona&dates=20261229T124500%2F20261229T160000&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=KO+audio%2C+subtitles+EN+%E2%80%94+2D%2C+SALA+06.+Admission+time+12%3A45%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
+   "first_seen": "2026-11-19",
+   "is_new": true
   },
   {
    "date": "2027-01-28",
@@ -1214,9 +1110,28 @@
    "ticket_url": null,
    "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=L%27essere+amato+%E2%80%94+Cinema+Diamante&dates=20270128T213000%2F20270128T234500&location=Via+Pietro+Zecchinato+5%2C+37136+Verona&details=Original+version+with+Italian+subtitles+%28marked+21%3A30%2A+on+the+programme%29.+Audio+language+ES+%28inferred%3A+production+Spagna+2026%2C+director+Rodrigo+Sorogoyen%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome",
    "first_seen": "2026-11-18",
-   "is_new": true
+   "is_new": false
   }
  ],
- "removed_since_last_run": [],
- "previous_run": "2026-11-18T13:01:30"
+ "removed_since_last_run": [
+  {
+   "film": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING C.A.",
+   "cinema": "UCI Cinemas Verona",
+   "date": "2026-11-21",
+   "time": "11:45"
+  },
+  {
+   "film": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING C.A.",
+   "cinema": "UCI Cinemas Verona",
+   "date": "2026-11-21",
+   "time": "16:00"
+  },
+  {
+   "film": "BTS WORLD TOUR 'ARIRANG' IN JAKARTA: LIVE VIEWING C.A.",
+   "cinema": "UCI Cinemas Verona",
+   "date": "2026-12-29",
+   "time": "12:45"
+  }
+ ],
+ "previous_run": "2026-11-18T12:02:41"
 }
