@@ -298,7 +298,11 @@ def build():
     for fm in films.values(): fm['trailer_url']=trailer_search(fm)
 
     # ---- diff against the previous run
-    def ident(s): return (s['film_it'],s['cinema'],s['date'],s['time'])
+    # Keyed on film_key, the stable slug, not on the printed title: cinemas
+    # re-case and re-punctuate titles (ALL CAPS -> Title Case, ' -> ’) without
+    # the showtime itself changing, and keying on film_it made every such edit
+    # look like a showtime disappearing and an identical one appearing.
+    def ident(s): return (s['film_key'],s['cinema'],s['date'],s['time'])
     old={ident(s):s for s in (prev.get('screenings') or [])}
     new_count=0
     for s in screenings:
@@ -308,7 +312,7 @@ def build():
         else:
             s['first_seen']=TODAY.isoformat(); s['is_new']=bool(prev); new_count+=bool(prev)
     cur=set(map(ident,screenings))
-    removed=[{'film':k[0],'cinema':k[1],'date':k[2],'time':k[3]}
+    removed=[{'film':v.get('film_it',k[0]),'cinema':k[1],'date':k[2],'time':k[3]}
              for k,v in old.items() if k not in cur and k[2]>=TODAY.isoformat()]
 
     # ---- posters on disk

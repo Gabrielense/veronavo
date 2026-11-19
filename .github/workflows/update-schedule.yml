@@ -4,7 +4,12 @@ name: Update schedule
 # no browser and runs fine on a hosted runner.
 on:
   schedule:
+    # GitHub runs cron on a best-effort basis and quietly skips slots under
+    # load, so ask three times a day rather than once. A run that finds no
+    # change commits nothing, so the extra attempts cost a minute each.
     - cron: '20 5 * * *'      # 05:20 UTC = 06:20 or 07:20 in Verona
+    - cron: '20 10 * * *'     # backup, late morning in Verona
+    - cron: '20 16 * * *'     # backup, before the evening shows
   workflow_dispatch:           # "Run workflow" button, for an update on demand
 
 permissions:

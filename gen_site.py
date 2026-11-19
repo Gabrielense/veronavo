@@ -187,7 +187,32 @@ const D=JSON.parse(document.getElementById('data').textContent);
 const WD=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 const MO=['January','February','March','April','May','June','July','August','September','October','November','December'];
 const CATS={english_audio:'English audio',english_subs:'English subtitles',spanish:'Spanish',other:'Other original version'};
-const TODAY=D.built_at.slice(0,10);
+// "Today"/"Tomorrow" are read off the visitor's clock, never off D.built_at:
+// the labels must stay right on a day when no rebuild ran. Always resolved in
+// Europe/Rome, so a visitor abroad still sees the cinemas' own calendar day.
+function romeNow(){
+ const p={};
+ for(const x of new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Rome',
+     year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false})
+     .formatToParts(new Date())) if(x.type!=='literal')p[x.type]=x.value;
+ const h=p.hour==='24'?'00':p.hour;        // some engines render midnight as 24
+ return {date:p.year+'-'+p.month+'-'+p.day,time:h+':'+p.minute};
+}
+const NOW=romeNow();
+const TODAY=NOW.date;
+
+// A showtime leaves the page only once the film has actually ended, so nothing
+// still running vanishes from under someone deciding whether to set off.
+function isOver(s){
+ if(s.date>TODAY)return false;
+ if(s.date<TODAY)return true;
+ const end=s.end_time||s.time;
+ if(end<s.time)return false;               // runs past midnight, so still on today
+ return end<=NOW.time;
+}
+// Every render reads LIVE, never D.screenings: the payload still holds the
+// whole build, we just stop showing what the clock has overtaken.
+const LIVE=D.screenings.filter(s=>!isOver(s));
 
 function parseD(s){const[y,m,d]=s.split('-').map(Number);return new Date(y,m-1,d);}
 function fmtDay(s){const t=parseD(s);return WD[t.getDay()]+', '+t.getDate()+' '+MO[t.getMonth()];}
@@ -208,8 +233,8 @@ function filmTitle(s){
 let active='all';
 let view='film';
 const expanded={};
-const counts={all:D.screenings.length};
-for(const k in CATS)counts[k]=D.screenings.filter(s=>s.category===k).length;
+const counts={all:LIVE.length};
+for(const k in CATS)counts[k]=LIVE.filter(s=>s.category===k).length;
 
 function renderFilters(){
  const keys=['all',...Object.keys(CATS).filter(k=>counts[k]>0)];
@@ -248,7 +273,7 @@ function showtimeRow(s){
 }
 
 function renderFilms(){
- const rows=D.screenings.filter(s=>active==='all'||s.category===active);
+ const rows=LIVE.filter(s=>active==='all'||s.category===active);
  const el=document.getElementById('films');
  if(!rows.length){el.innerHTML='<div class="empty">Nothing scheduled in this category right now.</div>';return;}
  const byFilm={};
@@ -293,7 +318,7 @@ function actions(s){
 }
 
 function renderSchedule(){
- const rows=D.screenings.filter(s=>active==='all'||s.category===active);
+ const rows=LIVE.filter(s=>active==='all'||s.category===active);
  const el=document.getElementById('schedule');
  if(!rows.length){el.innerHTML='<div class="empty">Nothing scheduled in this category right now.</div>';return;}
  const byDay={};
@@ -320,7 +345,7 @@ function renderSchedule(){
 }
 
 function renderNext(){
- const n=D.screenings.find(s=>s.date>=TODAY&&(s.category==='english_audio'||s.category==='english_subs'));
+ const n=LIVE.find(s=>s.category==='english_audio'||s.category==='english_subs');
  const el=document.getElementById('next');
  if(!n){el.innerHTML='<span>No English-friendly screening currently listed.</span>';return;}
  el.innerHTML=`<span>Next in English: <b>${esc(n.film_it)}</b> &mdash; ${fmtDay(n.date)} at ${esc(n.time)}, ${esc(n.cinema)}</span>`+
@@ -330,16 +355,17 @@ function renderNext(){
 
 
 function renderTheaters(){
- document.getElementById('theaters').innerHTML=Object.entries(D.theaters).map(([n,t])=>
-  `<div class="tcard"><h3>${esc(n)}</h3><p class="ad">${esc(t.address)}`+
+ document.getElementById('theaters').innerHTML=Object.entries(D.theaters).map(([n,t])=>{
+  const cnt=LIVE.filter(s=>s.cinema===n).length;
+  return `<div class="tcard"><h3>${esc(n)}</h3><p class="ad">${esc(t.address)}`+
   (t.phone?`<br>tel ${esc(t.phone)}`:'')+`</p>
    <div class="lk">
     <a class="pill m" href="${esc(t.map_url)}" target="_blank" rel="noopener noreferrer">Map</a>
     <a class="pill m" href="${esc(t.directions_url)}" target="_blank" rel="noopener noreferrer">Directions</a>
     <a class="pill" href="${esc(t.site)}" target="_blank" rel="noopener noreferrer">Programme</a>
    </div>
-   <p class="cnt">${t.screenings} original-language showtime${t.screenings===1?'':'s'} listed</p>
-   <p class="nt">${esc(t.note)} ${esc(t.booking_note)}</p></div>`).join('');
+   <p class="cnt">${cnt} original-language showtime${cnt===1?'':'s'} listed</p>
+   <p class="nt">${esc(t.note)} ${esc(t.booking_note)}</p></div>`;}).join('');
 }
 
 function renderFooter(){
@@ -348,7 +374,9 @@ function renderFooter(){
   (s.missing_dates&&s.missing_dates.length?`, no programme published for ${s.missing_dates.map(esc).join(', ')}`:'')+
   ` &middot; <a href="${esc(u)}" target="_blank" rel="noopener noreferrer">source</a></li>`).join('');
  const dt=D.built_at;
- document.getElementById('built').textContent='Schedule built '+dt.slice(0,10)+' at '+dt.slice(11,16)+' (Europe/Rome) from the cinemas\\u2019 own listings.';
+ const age=Math.round((parseD(TODAY)-parseD(dt.slice(0,10)))/86400000);
+ document.getElementById('built').textContent='Schedule built '+dt.slice(0,10)+' at '+dt.slice(11,16)+' (Europe/Rome) from the cinemas\\u2019 own listings.'+
+  (age>=2?' It has not been rebuilt for '+age+' days, so screenings announced since then are missing.':'');
  document.getElementById('credit').innerHTML='Posters and showtime data belong to the cinemas and distributors. '+
   'This page is an unofficial reading aid &mdash; always confirm on the cinema\\u2019s own site before travelling.';
 }
