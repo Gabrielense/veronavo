@@ -1,7 +1,7 @@
 {
- "built_at": "2026-11-19T23:07:20",
+ "built_at": "2026-11-20T18:38:59",
  "timezone": "Europe/Rome",
- "content_hash": "0575ed1a8a5bcb2c",
+ "content_hash": "c799d9b6fc1be696",
  "theaters": {
   "UCI Cinemas Verona": {
    "address": "Via Monte Amiata, 37057 San Giovanni Lupatoto VR",
@@ -57,21 +57,21 @@
   "https://cinemafiume.it/cinema/cinema-diamante/": {
    "cinema": "Cinema Diamante",
    "status": "ok",
-   "dates_covered": "2026-11-19..2027-01-28",
+   "dates_covered": "2026-11-20..2027-01-28",
    "missing_dates": [],
    "vo_footnote_present": true
   },
   "https://cinemafiume.it/cinema/cinema-fiume/": {
    "cinema": "Cinema Fiume",
    "status": "ok",
-   "dates_covered": "2026-11-19..2027-01-21",
+   "dates_covered": "2026-11-20..2027-01-21",
    "missing_dates": [],
    "vo_footnote_present": false
   },
   "https://cinemafiume.it/cinema/cinema-pindemonte/": {
    "cinema": "Cinema Pindemonte",
    "status": "ok",
-   "dates_covered": "2026-11-19..2026-12-18",
+   "dates_covered": "2026-11-20..2026-12-18",
    "missing_dates": [],
    "vo_footnote_present": false
   },
@@ -81,7 +81,7 @@
    "dates_covered": "2026-11-20..2026-12-30",
    "missing_dates": [],
    "api": "https://backend.ucicinemas.it/api/theatres/uci-cinemas-verona/programming/{YYYY-MM-DD}",
-   "probed_through": "2027-04-07"
+   "probed_through": "2027-04-08"
   }
  },
  "films": {
@@ -234,28 +234,6 @@
  "screenings": [
   {
    "date": "2026-11-20",
-   "time": "18:45",
-   "film_key": "hunger-games-l-alba-sulla-mietitura",
-   "film_it": "Hunger Games: L'alba sulla mietitura",
-   "film_original": "",
-   "cinema": "UCI Cinemas Verona",
-   "audio": "EN",
-   "subs": "IT",
-   "category": "english_audio",
-   "format": "",
-   "room": "SALA 04",
-   "price_from": "7.9",
-   "marker": "ENG / sottotitoli ITA",
-   "lang_source": "badge",
-   "end_time": "21:23",
-   "runtime_min": 158,
-   "ticket_url": "https://www.ucicinemas.it/movies/hunger-games-lalba-sulla-mietitura/acquista/5116/10018/578891",
-   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Hunger+Games%3A+L%27alba+sulla+mietitura+%E2%80%94+UCI+Cinemas+Verona&dates=20261120T184500%2F20261120T212300&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+04.+Admission+time+18%3A45%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
-   "first_seen": "2026-11-18",
-   "is_new": false
-  },
-  {
-   "date": "2026-11-20",
    "time": "21:00",
    "film_key": "wild-horse-nine",
    "film_it": "Wild Horse Nine",
@@ -362,7 +340,7 @@
    "ticket_url": "https://www.ucicinemas.it/movies/hunger-games-lalba-sulla-mietitura/acquista/5116/10018/578921",
    "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Hunger+Games%3A+L%27alba+sulla+mietitura+%E2%80%94+UCI+Cinemas+Verona&dates=20261122T114500%2F20261122T142300&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+06.+Admission+time+11%3A45%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
    "first_seen": "2026-11-19",
-   "is_new": true
+   "is_new": false
   },
   {
    "date": "2026-11-22",
@@ -1095,15 +1073,9 @@
   {
    "film": "Hunger Games: L'alba sulla mietitura",
    "cinema": "UCI Cinemas Verona",
-   "date": "2026-11-19",
-   "time": "18:30"
-  },
-  {
-   "film": "Hunger Games: L'alba sulla mietitura",
-   "cinema": "UCI Cinemas Verona",
-   "date": "2026-11-19",
-   "time": "22:00"
+   "date": "2026-11-20",
+   "time": "18:45"
   }
  ],
- "previous_run": "2026-11-19T15:35:38"
+ "previous_run": "2026-11-19T23:07:20"
 }
