@@ -1,12 +1,11 @@
-# Verona original-language screenings — updated 2026-11-21 13:29 (Europe/Rome)
+# Verona original-language screenings — updated 2026-11-21 17:37 (Europe/Rome)
 
-35 qualifying showtimes across 3 of the 5 cinemas tracked.
+34 qualifying showtimes across 3 of the 5 cinemas tracked.
 
 ## Next 7 days
 
 | Date | Time | Film | Cinema | Audio / Subs | Links  NEW |
 |---|---|---|---|---|---|---|
-| Sat 21 Nov | 16:00 | BTS World Tour ‘ARIRANG’ In Kaohsiung: Live Viewing C.A. | UCI Cinemas Verona | KO audio / EN subs | [tickets](https://www.ucicinemas.it/movies/bts-world-tour-arirang-live-viewing/acquista/5116/10045/578176) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=BTS+World+Tour+%E2%80%98ARIRANG%E2%80%99+In+Kaohsiung%3A+Live+Viewing+C.A.+%E2%80%94+UCI+Cinemas+Verona&dates=20261121T160000%2F20261121T191500&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=KO+audio%2C+subtitles+EN+%E2%80%94+2D%2C+SALA+06.+Admission+time+16%3A00%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
 | Sun 22 Nov | 11:45 | Hunger Games: L'alba sulla mietitura | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/hunger-games-lalba-sulla-mietitura/acquista/5116/10018/578921) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Hunger+Games%3A+L%27alba+sulla+mietitura+%E2%80%94+UCI+Cinemas+Verona&dates=20261122T114500%2F20261122T142300&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+06.+Admission+time+11%3A45%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
 | Sun 22 Nov | 20:30 | Look Back | Cinema Diamante | JA audio / IT subs | [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Look+Back+%E2%80%94+Cinema+Diamante&dates=20261122T203000%2F20261122T221000&location=Via+Pietro+Zecchinato+5%2C+37136+Verona&details=Original+version+with+Italian+subtitles+%28marked+20%3A30%2A+on+the+programme%29.+Audio+language+JA+%28inferred%3A+production+Giappone+2026%2C+director+Kore%27eda+Hirokazu%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome) |  |
 | Sun 22 Nov | 20:30 | Wild Horse Nine | Cinema Kappadue | EN audio / IT subs | [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wild+Horse+Nine+%E2%80%94+Cinema+Kappadue&dates=20261122T203000%2F20261122T222600&location=Via+Antonio+Rosmini+1%2C+37123+Verona&details=Original+version+with+Italian+subtitles+%28marked+20%3A30%2A+on+the+programme%29.+Audio+language+EN+%28inferred%3A+production+USA%2FG.B.+2026%2C+director+Martin+McDonagh%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome) |  |
@@ -56,7 +55,6 @@
 
 | Date | Time | Film | Cinema | Audio / Subs | Links  NEW |
 |---|---|---|---|---|---|---|
-| Sat 21 Nov | 16:00 | BTS World Tour ‘ARIRANG’ In Kaohsiung: Live Viewing C.A. | UCI Cinemas Verona | KO audio / EN subs | [tickets](https://www.ucicinemas.it/movies/bts-world-tour-arirang-live-viewing/acquista/5116/10045/578176) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=BTS+World+Tour+%E2%80%98ARIRANG%E2%80%99+In+Kaohsiung%3A+Live+Viewing+C.A.+%E2%80%94+UCI+Cinemas+Verona&dates=20261121T160000%2F20261121T191500&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=KO+audio%2C+subtitles+EN+%E2%80%94+2D%2C+SALA+06.+Admission+time+16%3A00%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
 | Tue 29 Dec | 12:45 | BTS World Tour ‘ARIRANG’ In Jakarta: Live Viewing C.A. | UCI Cinemas Verona | KO audio / EN subs | [tickets](https://www.ucicinemas.it/movies/bts-world-tour-arirang-in-jakarta-live-viewing/acquista/5116/10043/578177) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=BTS+World+Tour+%E2%80%98ARIRANG%E2%80%99+In+Jakarta%3A+Live+Viewing+C.A.+%E2%80%94+UCI+Cinemas+Verona&dates=20261229T124500%2F20261229T160000&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=KO+audio%2C+subtitles+EN+%E2%80%94+2D%2C+SALA+06.+Admission+time+12%3A45%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
 
 ### Spanish
@@ -73,8 +71,7 @@
 
 ## Removed since last run
 
-- {'film': 'BTS World Tour ‘ARIRANG’ In Kaohsiung: Live Viewing C.A.', 'cinema': 'UCI Cinemas Verona', 'date': '2026-11-21', 'time': '11:45'}
-- {'film': "Hunger Games: L'alba sulla mietitura", 'cinema': 'UCI Cinemas Verona', 'date': '2026-11-21', 'time': '11:45'}
+- {'film': 'BTS World Tour ‘ARIRANG’ In Kaohsiung: Live Viewing C.A.', 'cinema': 'UCI Cinemas Verona', 'date': '2026-11-21', 'time': '16:00'}
 
 ## Cinemas
 
