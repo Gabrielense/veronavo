@@ -1,16 +1,16 @@
-# Verona original-language screenings — updated 2026-11-21 17:37 (Europe/Rome)
+# Verona original-language screenings — updated 2026-11-22 13:23 (Europe/Rome)
 
-34 qualifying showtimes across 3 of the 5 cinemas tracked.
+33 qualifying showtimes across 3 of the 5 cinemas tracked.
 
 ## Next 7 days
 
 | Date | Time | Film | Cinema | Audio / Subs | Links  NEW |
 |---|---|---|---|---|---|---|
-| Sun 22 Nov | 11:45 | Hunger Games: L'alba sulla mietitura | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/hunger-games-lalba-sulla-mietitura/acquista/5116/10018/578921) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Hunger+Games%3A+L%27alba+sulla+mietitura+%E2%80%94+UCI+Cinemas+Verona&dates=20261122T114500%2F20261122T142300&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+06.+Admission+time+11%3A45%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
 | Sun 22 Nov | 20:30 | Look Back | Cinema Diamante | JA audio / IT subs | [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Look+Back+%E2%80%94+Cinema+Diamante&dates=20261122T203000%2F20261122T221000&location=Via+Pietro+Zecchinato+5%2C+37136+Verona&details=Original+version+with+Italian+subtitles+%28marked+20%3A30%2A+on+the+programme%29.+Audio+language+JA+%28inferred%3A+production+Giappone+2026%2C+director+Kore%27eda+Hirokazu%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome) |  |
 | Sun 22 Nov | 20:30 | Wild Horse Nine | Cinema Kappadue | EN audio / IT subs | [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wild+Horse+Nine+%E2%80%94+Cinema+Kappadue&dates=20261122T203000%2F20261122T222600&location=Via+Antonio+Rosmini+1%2C+37123+Verona&details=Original+version+with+Italian+subtitles+%28marked+20%3A30%2A+on+the+programme%29.+Audio+language+EN+%28inferred%3A+production+USA%2FG.B.+2026%2C+director+Martin+McDonagh%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome) |  |
 | Wed 25 Nov | 18:45 | Hunger Games: L'alba sulla mietitura | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/hunger-games-lalba-sulla-mietitura/acquista/5116/10018/578835) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Hunger+Games%3A+L%27alba+sulla+mietitura+%E2%80%94+UCI+Cinemas+Verona&dates=20261125T184500%2F20261125T212300&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+05.+Admission+time+18%3A45%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
 | Thu 26 Nov | 18:50 | Ti presento i Fotter | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/ti-presento-i-fotter/acquista/5116/10038/578464) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Ti+presento+i+Fotter+%E2%80%94+UCI+Cinemas+Verona&dates=20261126T185000%2F20261126T204500&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+05.+Admission+time+18%3A50%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
+| Sun 29 Nov | 10:50 | Le nuove disavventure di Cliff Booth | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/le-nuove-disavventure-di-cliff-booth/acquista/5116/10051/578430) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Le+nuove+disavventure+di+Cliff+Booth+%E2%80%94+UCI+Cinemas+Verona&dates=20261129T105000%2F20261129T131000&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+IMAX%2C+SALA+1+IMAX.+Admission+time+10%3A50%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
 
 
 ## Full schedule
@@ -19,7 +19,6 @@
 
 | Date | Time | Film | Cinema | Audio / Subs | Links  NEW |
 |---|---|---|---|---|---|---|
-| Sun 22 Nov | 11:45 | Hunger Games: L'alba sulla mietitura | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/hunger-games-lalba-sulla-mietitura/acquista/5116/10018/578921) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Hunger+Games%3A+L%27alba+sulla+mietitura+%E2%80%94+UCI+Cinemas+Verona&dates=20261122T114500%2F20261122T142300&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+06.+Admission+time+11%3A45%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
 | Sun 22 Nov | 20:30 | Wild Horse Nine | Cinema Kappadue | EN audio / IT subs | [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wild+Horse+Nine+%E2%80%94+Cinema+Kappadue&dates=20261122T203000%2F20261122T222600&location=Via+Antonio+Rosmini+1%2C+37123+Verona&details=Original+version+with+Italian+subtitles+%28marked+20%3A30%2A+on+the+programme%29.+Audio+language+EN+%28inferred%3A+production+USA%2FG.B.+2026%2C+director+Martin+McDonagh%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome) |  |
 | Wed 25 Nov | 18:45 | Hunger Games: L'alba sulla mietitura | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/hunger-games-lalba-sulla-mietitura/acquista/5116/10018/578835) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Hunger+Games%3A+L%27alba+sulla+mietitura+%E2%80%94+UCI+Cinemas+Verona&dates=20261125T184500%2F20261125T212300&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+05.+Admission+time+18%3A45%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
 | Thu 26 Nov | 18:50 | Ti presento i Fotter | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/ti-presento-i-fotter/acquista/5116/10038/578464) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Ti+presento+i+Fotter+%E2%80%94+UCI+Cinemas+Verona&dates=20261126T185000%2F20261126T204500&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+05.+Admission+time+18%3A50%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
@@ -71,7 +70,7 @@
 
 ## Removed since last run
 
-- {'film': 'BTS World Tour ‘ARIRANG’ In Kaohsiung: Live Viewing C.A.', 'cinema': 'UCI Cinemas Verona', 'date': '2026-11-21', 'time': '16:00'}
+- {'film': "Hunger Games: L'alba sulla mietitura", 'cinema': 'UCI Cinemas Verona', 'date': '2026-11-22', 'time': '11:45'}
 
 ## Cinemas
 
@@ -83,15 +82,15 @@
 
 ## Sources & coverage
 
-- Cinema Kappadue — ok, covered 2026-11-21..2027-01-18  
+- Cinema Kappadue — ok, covered 2026-11-22..2027-01-18  
   <https://cinemafiume.it/cinema/cinema-kappadue/>
-- Cinema Diamante — ok, covered 2026-11-21..2027-01-28  
+- Cinema Diamante — ok, covered 2026-11-22..2027-01-28  
   <https://cinemafiume.it/cinema/cinema-diamante/>
-- Cinema Fiume — ok, covered 2026-11-21..2027-01-21  
+- Cinema Fiume — ok, covered 2026-11-22..2027-01-21  
   <https://cinemafiume.it/cinema/cinema-fiume/>
-- Cinema Pindemonte — ok, covered 2026-11-21..2026-12-18  
+- Cinema Pindemonte — ok, covered 2026-11-22..2026-12-18  
   <https://cinemafiume.it/cinema/cinema-pindemonte/>
-- UCI Cinemas Verona — ok, covered 2026-11-21..2026-12-30  
+- UCI Cinemas Verona — ok, covered 2026-11-22..2026-12-30  
   <https://www.ucicinemas.it/cinema/veneto/verona/uci-cinemas-verona/>
 
 UCI: films start about 25 minutes after the printed time (about 15 for alternative-content events).
