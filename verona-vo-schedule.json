@@ -1,7 +1,7 @@
 {
- "built_at": "2026-11-22T13:23:13",
+ "built_at": "2026-11-23T15:59:55",
  "timezone": "Europe/Rome",
- "content_hash": "e58a320cabee8157",
+ "content_hash": "3c425914a9966766",
  "theaters": {
   "UCI Cinemas Verona": {
    "address": "Via Monte Amiata, 37057 San Giovanni Lupatoto VR",
@@ -50,38 +50,38 @@
   "https://cinemafiume.it/cinema/cinema-kappadue/": {
    "cinema": "Cinema Kappadue",
    "status": "ok",
-   "dates_covered": "2026-11-22..2027-01-18",
+   "dates_covered": "2026-11-23..2027-01-18",
    "missing_dates": [],
    "vo_footnote_present": true
   },
   "https://cinemafiume.it/cinema/cinema-diamante/": {
    "cinema": "Cinema Diamante",
    "status": "ok",
-   "dates_covered": "2026-11-22..2027-01-28",
+   "dates_covered": "2026-11-24..2027-01-28",
    "missing_dates": [],
    "vo_footnote_present": true
   },
   "https://cinemafiume.it/cinema/cinema-fiume/": {
    "cinema": "Cinema Fiume",
    "status": "ok",
-   "dates_covered": "2026-11-22..2027-01-21",
+   "dates_covered": "2026-11-23..2027-01-21",
    "missing_dates": [],
    "vo_footnote_present": false
   },
   "https://cinemafiume.it/cinema/cinema-pindemonte/": {
    "cinema": "Cinema Pindemonte",
    "status": "ok",
-   "dates_covered": "2026-11-22..2026-12-18",
+   "dates_covered": "2026-11-24..2026-12-18",
    "missing_dates": [],
    "vo_footnote_present": false
   },
   "https://www.ucicinemas.it/cinema/veneto/verona/uci-cinemas-verona/": {
    "cinema": "UCI Cinemas Verona",
    "status": "ok",
-   "dates_covered": "2026-11-22..2026-12-30",
+   "dates_covered": "2026-11-23..2026-12-30",
    "missing_dates": [],
    "api": "https://backend.ucicinemas.it/api/theatres/uci-cinemas-verona/programming/{YYYY-MM-DD}",
-   "probed_through": "2027-04-10"
+   "probed_through": "2027-04-11"
   }
  },
  "films": {
@@ -182,28 +182,6 @@
    "trailer_url": "https://www.youtube.com/results?search_query=BTS+World+Tour+%E2%80%98ARIRANG%E2%80%99+In+Jakarta%3A+Live+Viewing+trailer+2026",
    "poster": "posters/bts-world-tour-arirang-in-jakarta-live-viewing-c-a.jpg"
   },
-  "wild-horse-nine": {
-   "film_it": "Wild Horse Nine",
-   "film_original": "",
-   "poster_url": "https://cinemafiume.it/wp-content/uploads/2026/10/locandinapg1-4.jpg",
-   "genres": [],
-   "director": "Martin McDonagh",
-   "production": "USA/G.B. 2026",
-   "rating": null,
-   "trailer_url": "https://www.youtube.com/results?search_query=Wild+Horse+Nine+trailer+2026",
-   "poster": "posters/wild-horse-nine.jpg"
-  },
-  "look-back": {
-   "film_it": "Look Back",
-   "film_original": "",
-   "poster_url": "https://cinemafiume.it/wp-content/uploads/2026/10/locandina-7.jpg",
-   "genres": [],
-   "director": "Kore'eda Hirokazu",
-   "production": "Giappone 2026",
-   "rating": null,
-   "trailer_url": "https://www.youtube.com/results?search_query=Look+Back+trailer+2026",
-   "poster": "posters/look-back.jpg"
-  },
   "l-essere-amato": {
    "film_it": "L'essere amato",
    "film_original": "El Ser Querido",
@@ -217,50 +195,6 @@
   }
  },
  "screenings": [
-  {
-   "date": "2026-11-22",
-   "time": "20:30",
-   "film_key": "look-back",
-   "film_it": "Look Back",
-   "film_original": "",
-   "cinema": "Cinema Diamante",
-   "audio": "JA",
-   "subs": "IT",
-   "category": "other",
-   "format": "",
-   "room": null,
-   "price_from": null,
-   "marker": "20:30*",
-   "lang_source": "inferred: production Giappone 2026, director Kore'eda Hirokazu",
-   "end_time": "22:10",
-   "runtime_min": 100,
-   "ticket_url": null,
-   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Look+Back+%E2%80%94+Cinema+Diamante&dates=20261122T203000%2F20261122T221000&location=Via+Pietro+Zecchinato+5%2C+37136+Verona&details=Original+version+with+Italian+subtitles+%28marked+20%3A30%2A+on+the+programme%29.+Audio+language+JA+%28inferred%3A+production+Giappone+2026%2C+director+Kore%27eda+Hirokazu%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome",
-   "first_seen": "2026-11-18",
-   "is_new": false
-  },
-  {
-   "date": "2026-11-22",
-   "time": "20:30",
-   "film_key": "wild-horse-nine",
-   "film_it": "Wild Horse Nine",
-   "film_original": "",
-   "cinema": "Cinema Kappadue",
-   "audio": "EN",
-   "subs": "IT",
-   "category": "english_audio",
-   "format": "",
-   "room": null,
-   "price_from": null,
-   "marker": "20:30*",
-   "lang_source": "inferred: production USA/G.B. 2026, director Martin McDonagh",
-   "end_time": "22:26",
-   "runtime_min": 116,
-   "ticket_url": null,
-   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wild+Horse+Nine+%E2%80%94+Cinema+Kappadue&dates=20261122T203000%2F20261122T222600&location=Via+Antonio+Rosmini+1%2C+37123+Verona&details=Original+version+with+Italian+subtitles+%28marked+20%3A30%2A+on+the+programme%29.+Audio+language+EN+%28inferred%3A+production+USA%2FG.B.+2026%2C+director+Martin+McDonagh%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome",
-   "first_seen": "2026-11-18",
-   "is_new": false
-  },
   {
    "date": "2026-11-25",
    "time": "18:45",
@@ -944,13 +878,6 @@
    "is_new": false
   }
  ],
- "removed_since_last_run": [
-  {
-   "film": "Hunger Games: L'alba sulla mietitura",
-   "cinema": "UCI Cinemas Verona",
-   "date": "2026-11-22",
-   "time": "11:45"
-  }
- ],
- "previous_run": "2026-11-21T17:37:50"
+ "removed_since_last_run": [],
+ "previous_run": "2026-11-22T13:23:13"
 }
