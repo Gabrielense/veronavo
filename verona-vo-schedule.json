@@ -1,7 +1,7 @@
 {
- "built_at": "2026-11-23T15:59:55",
+ "built_at": "2026-11-24T15:54:43",
  "timezone": "Europe/Rome",
- "content_hash": "3c425914a9966766",
+ "content_hash": "bb1dc738087cc9d2",
  "theaters": {
   "UCI Cinemas Verona": {
    "address": "Via Monte Amiata, 37057 San Giovanni Lupatoto VR",
@@ -50,7 +50,7 @@
   "https://cinemafiume.it/cinema/cinema-kappadue/": {
    "cinema": "Cinema Kappadue",
    "status": "ok",
-   "dates_covered": "2026-11-23..2027-01-18",
+   "dates_covered": "2026-11-24..2027-01-18",
    "missing_dates": [],
    "vo_footnote_present": true
   },
@@ -64,7 +64,7 @@
   "https://cinemafiume.it/cinema/cinema-fiume/": {
    "cinema": "Cinema Fiume",
    "status": "ok",
-   "dates_covered": "2026-11-23..2027-01-21",
+   "dates_covered": "2026-11-24..2027-01-21",
    "missing_dates": [],
    "vo_footnote_present": false
   },
@@ -73,15 +73,15 @@
    "status": "ok",
    "dates_covered": "2026-11-24..2026-12-18",
    "missing_dates": [],
-   "vo_footnote_present": false
+   "vo_footnote_present": true
   },
   "https://www.ucicinemas.it/cinema/veneto/verona/uci-cinemas-verona/": {
    "cinema": "UCI Cinemas Verona",
    "status": "ok",
-   "dates_covered": "2026-11-23..2026-12-30",
+   "dates_covered": "2026-11-24..2026-12-30",
    "missing_dates": [],
    "api": "https://backend.ucicinemas.it/api/theatres/uci-cinemas-verona/programming/{YYYY-MM-DD}",
-   "probed_through": "2027-04-11"
+   "probed_through": "2027-04-12"
   }
  },
  "films": {
@@ -182,6 +182,17 @@
    "trailer_url": "https://www.youtube.com/results?search_query=BTS+World+Tour+%E2%80%98ARIRANG%E2%80%99+In+Jakarta%3A+Live+Viewing+trailer+2026",
    "poster": "posters/bts-world-tour-arirang-in-jakarta-live-viewing-c-a.jpg"
   },
+  "fjord": {
+   "film_it": "FJORD",
+   "film_original": "",
+   "poster_url": "https://cinemafiume.it/wp-content/uploads/2026/10/locandina-6.jpg",
+   "genres": [],
+   "director": "Cristian Mungiu",
+   "production": "Norvegia, Romania, Svezia, Finlandia, Danimarca 2026",
+   "rating": null,
+   "trailer_url": "https://www.youtube.com/results?search_query=FJORD+trailer+2026",
+   "poster": "posters/fjord.jpg"
+  },
   "l-essere-amato": {
    "film_it": "L'essere amato",
    "film_original": "El Ser Querido",
@@ -240,6 +251,28 @@
    "is_new": false
   },
   {
+   "date": "2026-11-27",
+   "time": "21:00",
+   "film_key": "fjord",
+   "film_it": "FJORD",
+   "film_original": "",
+   "cinema": "Cinema Kappadue",
+   "audio": "?",
+   "subs": "IT",
+   "category": "other",
+   "format": "",
+   "room": null,
+   "price_from": null,
+   "marker": "21:00*",
+   "lang_source": "inferred: undetermined (production Norvegia, Romania, Svezia, Finlandia, Danimarca 2026)",
+   "end_time": "23:25",
+   "runtime_min": 145,
+   "ticket_url": null,
+   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=FJORD+%E2%80%94+Cinema+Kappadue&dates=20261127T210000%2F20261127T232500&location=Via+Antonio+Rosmini+1%2C+37123+Verona&details=Original+version+with+Italian+subtitles+%28marked+21%3A00%2A+on+the+programme%29.+Audio+language+%3F+%28inferred%3A+undetermined+%28production+Norvegia%2C+Romania%2C+Svezia%2C+Finlandia%2C+Danimarca+2026%29%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome",
+   "first_seen": "2026-11-24",
+   "is_new": true
+  },
+  {
    "date": "2026-11-29",
    "time": "10:50",
    "film_key": "le-nuove-disavventure-di-cliff-booth",
@@ -260,6 +293,28 @@
    "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Le+nuove+disavventure+di+Cliff+Booth+%E2%80%94+UCI+Cinemas+Verona&dates=20261129T105000%2F20261129T131000&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+IMAX%2C+SALA+1+IMAX.+Admission+time+10%3A50%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
    "first_seen": "2026-11-18",
    "is_new": false
+  },
+  {
+   "date": "2026-12-01",
+   "time": "20:30",
+   "film_key": "fjord",
+   "film_it": "FJORD",
+   "film_original": "",
+   "cinema": "Cinema Kappadue",
+   "audio": "?",
+   "subs": "IT",
+   "category": "other",
+   "format": "",
+   "room": null,
+   "price_from": null,
+   "marker": "20:30*",
+   "lang_source": "inferred: undetermined (production Norvegia, Romania, Svezia, Finlandia, Danimarca 2026)",
+   "end_time": "22:55",
+   "runtime_min": 145,
+   "ticket_url": null,
+   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=FJORD+%E2%80%94+Cinema+Kappadue&dates=20261201T203000%2F20261201T225500&location=Via+Antonio+Rosmini+1%2C+37123+Verona&details=Original+version+with+Italian+subtitles+%28marked+20%3A30%2A+on+the+programme%29.+Audio+language+%3F+%28inferred%3A+undetermined+%28production+Norvegia%2C+Romania%2C+Svezia%2C+Finlandia%2C+Danimarca+2026%29%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome",
+   "first_seen": "2026-11-24",
+   "is_new": true
   },
   {
    "date": "2026-12-15",
@@ -879,5 +934,5 @@
   }
  ],
  "removed_since_last_run": [],
- "previous_run": "2026-11-22T13:23:13"
+ "previous_run": "2026-11-23T15:59:55"
 }

@@ -1,6 +1,6 @@
-# Verona original-language screenings — updated 2026-11-23 15:59 (Europe/Rome)
+# Verona original-language screenings — updated 2026-11-24 15:54 (Europe/Rome)
 
-31 qualifying showtimes across 2 of the 5 cinemas tracked.
+33 qualifying showtimes across 3 of the 5 cinemas tracked.
 
 ## Next 7 days
 
@@ -8,7 +8,9 @@
 |---|---|---|---|---|---|---|
 | Wed 25 Nov | 18:45 | Hunger Games: L'alba sulla mietitura | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/hunger-games-lalba-sulla-mietitura/acquista/5116/10018/578835) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Hunger+Games%3A+L%27alba+sulla+mietitura+%E2%80%94+UCI+Cinemas+Verona&dates=20261125T184500%2F20261125T212300&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+05.+Admission+time+18%3A45%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
 | Thu 26 Nov | 18:50 | Ti presento i Fotter | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/ti-presento-i-fotter/acquista/5116/10038/578464) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Ti+presento+i+Fotter+%E2%80%94+UCI+Cinemas+Verona&dates=20261126T185000%2F20261126T204500&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+05.+Admission+time+18%3A50%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
+| Fri 27 Nov | 21:00 | FJORD | Cinema Kappadue | ? audio / IT subs | [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FJORD+%E2%80%94+Cinema+Kappadue&dates=20261127T210000%2F20261127T232500&location=Via+Antonio+Rosmini+1%2C+37123+Verona&details=Original+version+with+Italian+subtitles+%28marked+21%3A00%2A+on+the+programme%29.+Audio+language+%3F+%28inferred%3A+undetermined+%28production+Norvegia%2C+Romania%2C+Svezia%2C+Finlandia%2C+Danimarca+2026%29%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome) | NEW |
 | Sun 29 Nov | 10:50 | Le nuove disavventure di Cliff Booth | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/le-nuove-disavventure-di-cliff-booth/acquista/5116/10051/578430) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Le+nuove+disavventure+di+Cliff+Booth+%E2%80%94+UCI+Cinemas+Verona&dates=20261129T105000%2F20261129T131000&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+IMAX%2C+SALA+1+IMAX.+Admission+time+10%3A50%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
+| Tue 1 Dec | 20:30 | FJORD | Cinema Kappadue | ? audio / IT subs | [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FJORD+%E2%80%94+Cinema+Kappadue&dates=20261201T203000%2F20261201T225500&location=Via+Antonio+Rosmini+1%2C+37123+Verona&details=Original+version+with+Italian+subtitles+%28marked+20%3A30%2A+on+the+programme%29.+Audio+language+%3F+%28inferred%3A+undetermined+%28production+Norvegia%2C+Romania%2C+Svezia%2C+Finlandia%2C+Danimarca+2026%29%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome) | NEW |
 
 
 ## Full schedule
@@ -62,7 +64,8 @@
 
 ## Other original-version
 
-_none_
+- Fri 27 Nov 21:00 — FJORD, Cinema Kappadue (? audio / IT subs) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FJORD+%E2%80%94+Cinema+Kappadue&dates=20261127T210000%2F20261127T232500&location=Via+Antonio+Rosmini+1%2C+37123+Verona&details=Original+version+with+Italian+subtitles+%28marked+21%3A00%2A+on+the+programme%29.+Audio+language+%3F+%28inferred%3A+undetermined+%28production+Norvegia%2C+Romania%2C+Svezia%2C+Finlandia%2C+Danimarca+2026%29%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome)
+- Tue 1 Dec 20:30 — FJORD, Cinema Kappadue (? audio / IT subs) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FJORD+%E2%80%94+Cinema+Kappadue&dates=20261201T203000%2F20261201T225500&location=Via+Antonio+Rosmini+1%2C+37123+Verona&details=Original+version+with+Italian+subtitles+%28marked+20%3A30%2A+on+the+programme%29.+Audio+language+%3F+%28inferred%3A+undetermined+%28production+Norvegia%2C+Romania%2C+Svezia%2C+Finlandia%2C+Danimarca+2026%29%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome)
 
 
 ## Removed since last run
@@ -80,15 +83,15 @@ _none_
 
 ## Sources & coverage
 
-- Cinema Kappadue — ok, covered 2026-11-23..2027-01-18  
+- Cinema Kappadue — ok, covered 2026-11-24..2027-01-18  
   <https://cinemafiume.it/cinema/cinema-kappadue/>
 - Cinema Diamante — ok, covered 2026-11-24..2027-01-28  
   <https://cinemafiume.it/cinema/cinema-diamante/>
-- Cinema Fiume — ok, covered 2026-11-23..2027-01-21  
+- Cinema Fiume — ok, covered 2026-11-24..2027-01-21  
   <https://cinemafiume.it/cinema/cinema-fiume/>
 - Cinema Pindemonte — ok, covered 2026-11-24..2026-12-18  
   <https://cinemafiume.it/cinema/cinema-pindemonte/>
-- UCI Cinemas Verona — ok, covered 2026-11-23..2026-12-30  
+- UCI Cinemas Verona — ok, covered 2026-11-24..2026-12-30  
   <https://www.ucicinemas.it/cinema/veneto/verona/uci-cinemas-verona/>
 
 UCI: films start about 25 minutes after the printed time (about 15 for alternative-content events).
