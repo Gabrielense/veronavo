@@ -1,7 +1,7 @@
 {
- "built_at": "2026-11-25T00:54:24",
+ "built_at": "2026-11-25T15:37:59",
  "timezone": "Europe/Rome",
- "content_hash": "f55ea1b7506e9114",
+ "content_hash": "8d3e8d8a24d7f0eb",
  "theaters": {
   "UCI Cinemas Verona": {
    "address": "Via Monte Amiata, 37057 San Giovanni Lupatoto VR",
@@ -154,7 +154,7 @@
   "avengers-doomsday": {
    "film_it": "Avengers: Doomsday",
    "film_original": "",
-   "poster_url": "https://storage.googleapis.com/uci-infrastructure-bucket/Common/Movies/Posters/01M3Y2YHH0GFYW6DJ7SXXBP597_resized_at_20261002123624.jpeg",
+   "poster_url": "https://storage.googleapis.com/uci-infrastructure-bucket/Common/Movies/Posters/xnAHKwTiUthyK4aSreGkdTkJdIOPTeo45RBAl31H_resized_at_20261125155156.jpg",
    "genres": [
     "Azione",
     "Fantascienza"
@@ -165,7 +165,7 @@
    "original_guess": "avengers doomsday",
    "release_year": "2026",
    "trailer_url": "https://www.youtube.com/results?search_query=Avengers%3A+Doomsday+trailer+2026",
-   "poster": "posters/avengers-doomsday.jpeg"
+   "poster": "posters/avengers-doomsday.jpg"
   },
   "dune-parte-tre": {
    "film_it": "Dune - Parte Tre",
@@ -374,7 +374,7 @@
    "ticket_url": "https://www.ucicinemas.it/movies/hexe-il-regno-delle-streghe/acquista/5116/10063/579103",
    "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Hexe+-+Il+regno+delle+streghe+%E2%80%94+UCI+Cinemas+Verona&dates=20261202T194000%2F20261202T212900&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+05.+Admission+time+19%3A40%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
    "first_seen": "2026-11-25",
-   "is_new": true
+   "is_new": false
   },
   {
    "date": "2026-12-15",
@@ -994,5 +994,5 @@
   }
  ],
  "removed_since_last_run": [],
- "previous_run": "2026-11-24T20:42:15"
+ "previous_run": "2026-11-25T00:54:24"
 }
