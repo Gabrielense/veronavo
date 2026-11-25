@@ -1,7 +1,7 @@
 {
- "built_at": "2026-11-24T20:42:15",
+ "built_at": "2026-11-25T00:54:24",
  "timezone": "Europe/Rome",
- "content_hash": "0dbfd1693c0078d6",
+ "content_hash": "f55ea1b7506e9114",
  "theaters": {
   "UCI Cinemas Verona": {
    "address": "Via Monte Amiata, 37057 San Giovanni Lupatoto VR",
@@ -50,38 +50,38 @@
   "https://cinemafiume.it/cinema/cinema-kappadue/": {
    "cinema": "Cinema Kappadue",
    "status": "ok",
-   "dates_covered": "2026-11-24..2027-01-18",
+   "dates_covered": "2026-11-25..2027-01-18",
    "missing_dates": [],
    "vo_footnote_present": true
   },
   "https://cinemafiume.it/cinema/cinema-diamante/": {
    "cinema": "Cinema Diamante",
    "status": "ok",
-   "dates_covered": "2026-11-24..2027-01-28",
+   "dates_covered": "2026-11-25..2027-01-28",
    "missing_dates": [],
    "vo_footnote_present": true
   },
   "https://cinemafiume.it/cinema/cinema-fiume/": {
    "cinema": "Cinema Fiume",
    "status": "ok",
-   "dates_covered": "2026-11-24..2027-01-21",
+   "dates_covered": "2026-11-25..2027-01-21",
    "missing_dates": [],
    "vo_footnote_present": false
   },
   "https://cinemafiume.it/cinema/cinema-pindemonte/": {
    "cinema": "Cinema Pindemonte",
    "status": "ok",
-   "dates_covered": "2026-11-24..2026-12-18",
+   "dates_covered": "2026-11-25..2026-12-18",
    "missing_dates": [],
    "vo_footnote_present": true
   },
   "https://www.ucicinemas.it/cinema/veneto/verona/uci-cinemas-verona/": {
    "cinema": "UCI Cinemas Verona",
    "status": "ok",
-   "dates_covered": "2026-11-24..2026-12-30",
+   "dates_covered": "2026-11-25..2026-12-30",
    "missing_dates": [],
    "api": "https://backend.ucicinemas.it/api/theatres/uci-cinemas-verona/programming/{YYYY-MM-DD}",
-   "probed_through": "2027-04-12"
+   "probed_through": "2027-04-13"
   }
  },
  "films": {
@@ -308,7 +308,7 @@
    "ticket_url": "https://www.ucicinemas.it/movies/hexe-il-regno-delle-streghe/acquista/5116/10063/579134",
    "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Hexe+-+Il+regno+delle+streghe+%E2%80%94+UCI+Cinemas+Verona&dates=20261129T103000%2F20261129T121900&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+08.+Admission+time+10%3A30%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
    "first_seen": "2026-11-24",
-   "is_new": true
+   "is_new": false
   },
   {
    "date": "2026-11-29",
@@ -353,6 +353,28 @@
    "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=FJORD+%E2%80%94+Cinema+Kappadue&dates=20261201T203000%2F20261201T225500&location=Via+Antonio+Rosmini+1%2C+37123+Verona&details=Original+version+with+Italian+subtitles+%28marked+20%3A30%2A+on+the+programme%29.+Audio+language+%3F+%28inferred%3A+undetermined+%28production+Norvegia%2C+Romania%2C+Svezia%2C+Finlandia%2C+Danimarca+2026%29%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome",
    "first_seen": "2026-11-24",
    "is_new": false
+  },
+  {
+   "date": "2026-12-02",
+   "time": "19:40",
+   "film_key": "hexe-il-regno-delle-streghe",
+   "film_it": "Hexe - Il regno delle streghe",
+   "film_original": "",
+   "cinema": "UCI Cinemas Verona",
+   "audio": "EN",
+   "subs": "IT",
+   "category": "english_audio",
+   "format": "",
+   "room": "SALA 05",
+   "price_from": "7.9",
+   "marker": "ENG / sottotitoli ITA",
+   "lang_source": "badge",
+   "end_time": "21:29",
+   "runtime_min": 109,
+   "ticket_url": "https://www.ucicinemas.it/movies/hexe-il-regno-delle-streghe/acquista/5116/10063/579103",
+   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Hexe+-+Il+regno+delle+streghe+%E2%80%94+UCI+Cinemas+Verona&dates=20261202T194000%2F20261202T212900&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+05.+Admission+time+19%3A40%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
+   "first_seen": "2026-11-25",
+   "is_new": true
   },
   {
    "date": "2026-12-15",
@@ -578,7 +600,7 @@
    "date": "2026-12-19",
    "time": "11:20",
    "film_key": "dune-parte-tre",
-   "film_it": "Dune: Parte Tre",
+   "film_it": "Dune - Parte Tre",
    "film_original": "",
    "cinema": "UCI Cinemas Verona",
    "audio": "EN",
@@ -592,7 +614,7 @@
    "end_time": "13:40",
    "runtime_min": 140,
    "ticket_url": "https://www.ucicinemas.it/movies/dune-parte-tre/acquista/5116/9802/577650",
-   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Dune%3A+Parte+Tre+%E2%80%94+UCI+Cinemas+Verona&dates=20261219T112000%2F20261219T134000&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+04.+Admission+time+11%3A20%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
+   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Dune+-+Parte+Tre+%E2%80%94+UCI+Cinemas+Verona&dates=20261219T112000%2F20261219T134000&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+04.+Admission+time+11%3A20%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
    "first_seen": "2026-11-18",
    "is_new": false
   },
@@ -710,7 +732,7 @@
    "date": "2026-12-21",
    "time": "11:20",
    "film_key": "dune-parte-tre",
-   "film_it": "Dune: Parte Tre",
+   "film_it": "Dune - Parte Tre",
    "film_original": "",
    "cinema": "UCI Cinemas Verona",
    "audio": "EN",
@@ -724,7 +746,7 @@
    "end_time": "13:40",
    "runtime_min": 140,
    "ticket_url": "https://www.ucicinemas.it/movies/dune-parte-tre/acquista/5116/9802/577658",
-   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Dune%3A+Parte+Tre+%E2%80%94+UCI+Cinemas+Verona&dates=20261221T112000%2F20261221T134000&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+04.+Admission+time+11%3A20%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
+   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Dune+-+Parte+Tre+%E2%80%94+UCI+Cinemas+Verona&dates=20261221T112000%2F20261221T134000&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+04.+Admission+time+11%3A20%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
    "first_seen": "2026-11-18",
    "is_new": false
   },
@@ -972,5 +994,5 @@
   }
  ],
  "removed_since_last_run": [],
- "previous_run": "2026-11-24T15:54:43"
+ "previous_run": "2026-11-24T20:42:15"
 }
