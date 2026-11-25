@@ -1,7 +1,7 @@
 {
- "built_at": "2026-11-25T15:37:59",
+ "built_at": "2026-11-25T19:59:18",
  "timezone": "Europe/Rome",
- "content_hash": "8d3e8d8a24d7f0eb",
+ "content_hash": "fb0313ceecc68dd2",
  "theaters": {
   "UCI Cinemas Verona": {
    "address": "Via Monte Amiata, 37057 San Giovanni Lupatoto VR",
@@ -85,23 +85,6 @@
   }
  },
  "films": {
-  "hunger-games-l-alba-sulla-mietitura": {
-   "film_it": "Hunger Games: L'alba sulla mietitura",
-   "film_original": "",
-   "poster_url": "https://storage.googleapis.com/uci-infrastructure-bucket/Common/Movies/Posters/FQ8gLfLEd2bih98IcRQ5PQ1xLSVgqdxa9Eu3g2Qh_resized_at_20261028095841.jpg",
-   "genres": [
-    "Avventura",
-    "Azione",
-    "Fantascienza"
-   ],
-   "director": "",
-   "production": "",
-   "rating": "T",
-   "original_guess": "hunger games sunrise on the r",
-   "release_year": "2026",
-   "trailer_url": "https://www.youtube.com/results?search_query=Hunger+Games%3A+L%27alba+sulla+mietitura+trailer+2026",
-   "poster": "posters/hunger-games-l-alba-sulla-mietitura.jpg"
-  },
   "ti-presento-i-fotter": {
    "film_it": "Ti presento i Fotter",
    "film_original": "",
@@ -209,6 +192,17 @@
    "trailer_url": "https://www.youtube.com/results?search_query=FJORD+trailer+2026",
    "poster": "posters/fjord.jpg"
   },
+  "storie-parallele": {
+   "film_it": "STORIE PARALLELE",
+   "film_original": "Parallel tales",
+   "poster_url": "https://cinemafiume.it/wp-content/uploads/2026/11/locandina-4.jpg",
+   "genres": [],
+   "director": "Asghar Farhadi",
+   "production": "Francia, Italia, Belgio, 2026",
+   "rating": null,
+   "trailer_url": "https://www.youtube.com/results?search_query=Parallel+tales+trailer+2026",
+   "poster": "posters/storie-parallele.jpg"
+  },
   "l-essere-amato": {
    "film_it": "L'essere amato",
    "film_original": "El Ser Querido",
@@ -222,28 +216,6 @@
   }
  },
  "screenings": [
-  {
-   "date": "2026-11-25",
-   "time": "18:45",
-   "film_key": "hunger-games-l-alba-sulla-mietitura",
-   "film_it": "Hunger Games: L'alba sulla mietitura",
-   "film_original": "",
-   "cinema": "UCI Cinemas Verona",
-   "audio": "EN",
-   "subs": "IT",
-   "category": "english_audio",
-   "format": "",
-   "room": "SALA 05",
-   "price_from": "7.9",
-   "marker": "ENG / sottotitoli ITA",
-   "lang_source": "badge",
-   "end_time": "21:23",
-   "runtime_min": 158,
-   "ticket_url": "https://www.ucicinemas.it/movies/hunger-games-lalba-sulla-mietitura/acquista/5116/10018/578835",
-   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Hunger+Games%3A+L%27alba+sulla+mietitura+%E2%80%94+UCI+Cinemas+Verona&dates=20261125T184500%2F20261125T212300&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+05.+Admission+time+18%3A45%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
-   "first_seen": "2026-11-18",
-   "is_new": false
-  },
   {
    "date": "2026-11-26",
    "time": "18:50",
@@ -331,6 +303,28 @@
    "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Le+nuove+disavventure+di+Cliff+Booth+%E2%80%94+UCI+Cinemas+Verona&dates=20261129T105000%2F20261129T131000&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+IMAX%2C+SALA+1+IMAX.+Admission+time+10%3A50%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
    "first_seen": "2026-11-18",
    "is_new": false
+  },
+  {
+   "date": "2026-11-29",
+   "time": "21:00",
+   "film_key": "storie-parallele",
+   "film_it": "STORIE PARALLELE",
+   "film_original": "Parallel tales",
+   "cinema": "Cinema Diamante",
+   "audio": "FR",
+   "subs": "IT",
+   "category": "other",
+   "format": "",
+   "room": null,
+   "price_from": null,
+   "marker": "21:00*",
+   "lang_source": "inferred: production Francia, Italia, Belgio, 2026, director Asghar Farhadi",
+   "end_time": "23:00",
+   "runtime_min": null,
+   "ticket_url": null,
+   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=STORIE+PARALLELE+%E2%80%94+Cinema+Diamante&dates=20261129T210000%2F20261129T230000&location=Via+Pietro+Zecchinato+5%2C+37136+Verona&details=Original+version+with+Italian+subtitles+%28marked+21%3A00%2A+on+the+programme%29.+Audio+language+FR+%28inferred%3A+production+Francia%2C+Italia%2C+Belgio%2C+2026%2C+director+Asghar+Farhadi%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome",
+   "first_seen": "2026-11-25",
+   "is_new": true
   },
   {
    "date": "2026-12-01",
@@ -993,6 +987,13 @@
    "is_new": false
   }
  ],
- "removed_since_last_run": [],
- "previous_run": "2026-11-25T00:54:24"
+ "removed_since_last_run": [
+  {
+   "film": "Hunger Games: L'alba sulla mietitura",
+   "cinema": "UCI Cinemas Verona",
+   "date": "2026-11-25",
+   "time": "18:45"
+  }
+ ],
+ "previous_run": "2026-11-25T15:37:59"
 }
