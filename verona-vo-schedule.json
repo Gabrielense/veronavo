@@ -1,7 +1,7 @@
 {
- "built_at": "2026-11-25T19:59:18",
+ "built_at": "2026-11-26T15:20:06",
  "timezone": "Europe/Rome",
- "content_hash": "fb0313ceecc68dd2",
+ "content_hash": "e5055548efd38386",
  "theaters": {
   "UCI Cinemas Verona": {
    "address": "Via Monte Amiata, 37057 San Giovanni Lupatoto VR",
@@ -50,38 +50,38 @@
   "https://cinemafiume.it/cinema/cinema-kappadue/": {
    "cinema": "Cinema Kappadue",
    "status": "ok",
-   "dates_covered": "2026-11-25..2027-01-18",
+   "dates_covered": "2026-11-27..2027-01-18",
    "missing_dates": [],
    "vo_footnote_present": true
   },
   "https://cinemafiume.it/cinema/cinema-diamante/": {
    "cinema": "Cinema Diamante",
    "status": "ok",
-   "dates_covered": "2026-11-25..2027-01-28",
+   "dates_covered": "2026-11-26..2027-01-28",
    "missing_dates": [],
    "vo_footnote_present": true
   },
   "https://cinemafiume.it/cinema/cinema-fiume/": {
    "cinema": "Cinema Fiume",
    "status": "ok",
-   "dates_covered": "2026-11-25..2027-01-21",
+   "dates_covered": "2026-11-26..2027-01-21",
    "missing_dates": [],
    "vo_footnote_present": false
   },
   "https://cinemafiume.it/cinema/cinema-pindemonte/": {
    "cinema": "Cinema Pindemonte",
    "status": "ok",
-   "dates_covered": "2026-11-25..2026-12-18",
+   "dates_covered": "2026-11-26..2026-12-18",
    "missing_dates": [],
    "vo_footnote_present": true
   },
   "https://www.ucicinemas.it/cinema/veneto/verona/uci-cinemas-verona/": {
    "cinema": "UCI Cinemas Verona",
    "status": "ok",
-   "dates_covered": "2026-11-25..2026-12-30",
+   "dates_covered": "2026-11-26..2026-12-30",
    "missing_dates": [],
    "api": "https://backend.ucicinemas.it/api/theatres/uci-cinemas-verona/programming/{YYYY-MM-DD}",
-   "probed_through": "2027-04-13"
+   "probed_through": "2027-04-14"
   }
  },
  "films": {
@@ -101,10 +101,26 @@
    "trailer_url": "https://www.youtube.com/results?search_query=Ti+presento+i+Fotter+trailer+2026",
    "poster": "posters/ti-presento-i-fotter.jpg"
   },
+  "hexe-il-regno-delle-streghe": {
+   "film_it": "Hexe - Il regno delle streghe",
+   "film_original": "",
+   "poster_url": "https://storage.googleapis.com/uci-infrastructure-bucket/Common/Movies/Posters/Fcp0LrWIl8PFylChrPgO40H5QG9Hh72K6uCh7qI5_resized_at_20261126111953.jpg",
+   "genres": [
+    "Animazione",
+    "Famiglia"
+   ],
+   "director": "",
+   "production": "",
+   "rating": "T",
+   "original_guess": "hexed",
+   "release_year": "2026",
+   "trailer_url": "https://www.youtube.com/results?search_query=Hexe+-+Il+regno+delle+streghe+trailer+2026",
+   "poster": "posters/hexe-il-regno-delle-streghe.jpg"
+  },
   "le-nuove-disavventure-di-cliff-booth": {
    "film_it": "Le nuove disavventure di Cliff Booth",
    "film_original": "",
-   "poster_url": "https://storage.googleapis.com/uci-infrastructure-bucket/Common/Movies/Posters/CDDODNKsxXeNNezRfmSoov04p27ORepv12z919GC_resized_at_20261110094514.jpg",
+   "poster_url": "https://storage.googleapis.com/uci-infrastructure-bucket/Common/Movies/Posters/pn7Z8tjtNYwVmNvCPJUDZ22wdncdtho49RgEqm6x_resized_at_20261126112954.jpg",
    "genres": [
     "Dramma",
     "Commedia",
@@ -117,22 +133,6 @@
    "release_year": "2026",
    "trailer_url": "https://www.youtube.com/results?search_query=Le+nuove+disavventure+di+Cliff+Booth+trailer+2026",
    "poster": "posters/le-nuove-disavventure-di-cliff-booth.jpg"
-  },
-  "hexe-il-regno-delle-streghe": {
-   "film_it": "Hexe - Il regno delle streghe",
-   "film_original": "",
-   "poster_url": "https://storage.googleapis.com/uci-infrastructure-bucket/Common/Movies/Posters/g6knVmtQrcmJZ13B5OOEVzygWet2JI8jnZZVflFy_resized_at_20261110184401.jpg",
-   "genres": [
-    "Animazione",
-    "Famiglia"
-   ],
-   "director": "",
-   "production": "",
-   "rating": "T",
-   "original_guess": "hexed",
-   "release_year": "2026",
-   "trailer_url": "https://www.youtube.com/results?search_query=Hexe+-+Il+regno+delle+streghe+trailer+2026",
-   "poster": "posters/hexe-il-regno-delle-streghe.jpg"
   },
   "avengers-doomsday": {
    "film_it": "Avengers: Doomsday",
@@ -324,7 +324,7 @@
    "ticket_url": null,
    "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=STORIE+PARALLELE+%E2%80%94+Cinema+Diamante&dates=20261129T210000%2F20261129T230000&location=Via+Pietro+Zecchinato+5%2C+37136+Verona&details=Original+version+with+Italian+subtitles+%28marked+21%3A00%2A+on+the+programme%29.+Audio+language+FR+%28inferred%3A+production+Francia%2C+Italia%2C+Belgio%2C+2026%2C+director+Asghar+Farhadi%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome",
    "first_seen": "2026-11-25",
-   "is_new": true
+   "is_new": false
   },
   {
    "date": "2026-12-01",
@@ -987,13 +987,6 @@
    "is_new": false
   }
  ],
- "removed_since_last_run": [
-  {
-   "film": "Hunger Games: L'alba sulla mietitura",
-   "cinema": "UCI Cinemas Verona",
-   "date": "2026-11-25",
-   "time": "18:45"
-  }
- ],
- "previous_run": "2026-11-25T15:37:59"
+ "removed_since_last_run": [],
+ "previous_run": "2026-11-25T19:59:18"
 }
