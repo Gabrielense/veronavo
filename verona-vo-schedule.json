@@ -1,7 +1,7 @@
 {
- "built_at": "2026-11-26T15:20:06",
+ "built_at": "2026-11-26T19:42:37",
  "timezone": "Europe/Rome",
- "content_hash": "e5055548efd38386",
+ "content_hash": "757fd3422441b368",
  "theaters": {
   "UCI Cinemas Verona": {
    "address": "Via Monte Amiata, 37057 San Giovanni Lupatoto VR",
@@ -85,22 +85,6 @@
   }
  },
  "films": {
-  "ti-presento-i-fotter": {
-   "film_it": "Ti presento i Fotter",
-   "film_original": "",
-   "poster_url": "https://storage.googleapis.com/uci-infrastructure-bucket/Common/Movies/Posters/OL1m8U47JJ9hkDJznbsrLnt825hFPQZjYDBQVsNL_resized_at_20261103190756.jpg",
-   "genres": [
-    "Commedia",
-    "Romance"
-   ],
-   "director": "",
-   "production": "",
-   "rating": "6+",
-   "original_guess": "focker in law",
-   "release_year": "2026",
-   "trailer_url": "https://www.youtube.com/results?search_query=Ti+presento+i+Fotter+trailer+2026",
-   "poster": "posters/ti-presento-i-fotter.jpg"
-  },
   "hexe-il-regno-delle-streghe": {
    "film_it": "Hexe - Il regno delle streghe",
    "film_original": "",
@@ -216,28 +200,6 @@
   }
  },
  "screenings": [
-  {
-   "date": "2026-11-26",
-   "time": "18:50",
-   "film_key": "ti-presento-i-fotter",
-   "film_it": "Ti presento i Fotter",
-   "film_original": "",
-   "cinema": "UCI Cinemas Verona",
-   "audio": "EN",
-   "subs": "IT",
-   "category": "english_audio",
-   "format": "",
-   "room": "SALA 05",
-   "price_from": "7.9",
-   "marker": "ENG / sottotitoli ITA",
-   "lang_source": "badge",
-   "end_time": "20:45",
-   "runtime_min": 115,
-   "ticket_url": "https://www.ucicinemas.it/movies/ti-presento-i-fotter/acquista/5116/10038/578464",
-   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Ti+presento+i+Fotter+%E2%80%94+UCI+Cinemas+Verona&dates=20261126T185000%2F20261126T204500&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+05.+Admission+time+18%3A50%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
-   "first_seen": "2026-11-18",
-   "is_new": false
-  },
   {
    "date": "2026-11-27",
    "time": "21:00",
@@ -987,6 +949,13 @@
    "is_new": false
   }
  ],
- "removed_since_last_run": [],
- "previous_run": "2026-11-25T19:59:18"
+ "removed_since_last_run": [
+  {
+   "film": "Ti presento i Fotter",
+   "cinema": "UCI Cinemas Verona",
+   "date": "2026-11-26",
+   "time": "18:50"
+  }
+ ],
+ "previous_run": "2026-11-26T15:20:06"
 }

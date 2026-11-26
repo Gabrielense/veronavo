@@ -1,12 +1,11 @@
-# Verona original-language screenings — updated 2026-11-26 15:20 (Europe/Rome)
+# Verona original-language screenings — updated 2026-11-26 19:42 (Europe/Rome)
 
-35 qualifying showtimes across 3 of the 5 cinemas tracked.
+34 qualifying showtimes across 3 of the 5 cinemas tracked.
 
 ## Next 7 days
 
 | Date | Time | Film | Cinema | Audio / Subs | Links  NEW |
 |---|---|---|---|---|---|---|
-| Thu 26 Nov | 18:50 | Ti presento i Fotter | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/ti-presento-i-fotter/acquista/5116/10038/578464) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Ti+presento+i+Fotter+%E2%80%94+UCI+Cinemas+Verona&dates=20261126T185000%2F20261126T204500&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+05.+Admission+time+18%3A50%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
 | Fri 27 Nov | 21:00 | FJORD | Cinema Kappadue | ? audio / IT subs | [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FJORD+%E2%80%94+Cinema+Kappadue&dates=20261127T210000%2F20261127T232500&location=Via+Antonio+Rosmini+1%2C+37123+Verona&details=Original+version+with+Italian+subtitles+%28marked+21%3A00%2A+on+the+programme%29.+Audio+language+%3F+%28inferred%3A+undetermined+%28production+Norvegia%2C+Romania%2C+Svezia%2C+Finlandia%2C+Danimarca+2026%29%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome) |  |
 | Sun 29 Nov | 10:30 | Hexe - Il regno delle streghe | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/hexe-il-regno-delle-streghe/acquista/5116/10063/579134) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Hexe+-+Il+regno+delle+streghe+%E2%80%94+UCI+Cinemas+Verona&dates=20261129T103000%2F20261129T121900&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+08.+Admission+time+10%3A30%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
 | Sun 29 Nov | 10:50 | Le nuove disavventure di Cliff Booth | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/le-nuove-disavventure-di-cliff-booth/acquista/5116/10051/578430) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Le+nuove+disavventure+di+Cliff+Booth+%E2%80%94+UCI+Cinemas+Verona&dates=20261129T105000%2F20261129T131000&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+IMAX%2C+SALA+1+IMAX.+Admission+time+10%3A50%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
@@ -21,7 +20,6 @@
 
 | Date | Time | Film | Cinema | Audio / Subs | Links  NEW |
 |---|---|---|---|---|---|---|
-| Thu 26 Nov | 18:50 | Ti presento i Fotter | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/ti-presento-i-fotter/acquista/5116/10038/578464) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Ti+presento+i+Fotter+%E2%80%94+UCI+Cinemas+Verona&dates=20261126T185000%2F20261126T204500&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+05.+Admission+time+18%3A50%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
 | Sun 29 Nov | 10:30 | Hexe - Il regno delle streghe | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/hexe-il-regno-delle-streghe/acquista/5116/10063/579134) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Hexe+-+Il+regno+delle+streghe+%E2%80%94+UCI+Cinemas+Verona&dates=20261129T103000%2F20261129T121900&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+08.+Admission+time+10%3A30%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
 | Sun 29 Nov | 10:50 | Le nuove disavventure di Cliff Booth | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/le-nuove-disavventure-di-cliff-booth/acquista/5116/10051/578430) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Le+nuove+disavventure+di+Cliff+Booth+%E2%80%94+UCI+Cinemas+Verona&dates=20261129T105000%2F20261129T131000&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+IMAX%2C+SALA+1+IMAX.+Admission+time+10%3A50%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
 | Wed 2 Dec | 19:40 | Hexe - Il regno delle streghe | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/hexe-il-regno-delle-streghe/acquista/5116/10063/579103) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Hexe+-+Il+regno+delle+streghe+%E2%80%94+UCI+Cinemas+Verona&dates=20261202T194000%2F20261202T212900&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+05.+Admission+time+19%3A40%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
@@ -74,8 +72,7 @@
 
 ## Removed since last run
 
-_none_
-
+- {'film': 'Ti presento i Fotter', 'cinema': 'UCI Cinemas Verona', 'date': '2026-11-26', 'time': '18:50'}
 
 ## Cinemas
 
