@@ -1,7 +1,7 @@
 {
- "built_at": "2026-11-26T19:42:37",
+ "built_at": "2026-11-27T15:07:46",
  "timezone": "Europe/Rome",
- "content_hash": "757fd3422441b368",
+ "content_hash": "c4f8649814c744ee",
  "theaters": {
   "UCI Cinemas Verona": {
    "address": "Via Monte Amiata, 37057 San Giovanni Lupatoto VR",
@@ -57,31 +57,31 @@
   "https://cinemafiume.it/cinema/cinema-diamante/": {
    "cinema": "Cinema Diamante",
    "status": "ok",
-   "dates_covered": "2026-11-26..2027-01-28",
+   "dates_covered": "2026-11-27..2027-01-28",
    "missing_dates": [],
    "vo_footnote_present": true
   },
   "https://cinemafiume.it/cinema/cinema-fiume/": {
    "cinema": "Cinema Fiume",
    "status": "ok",
-   "dates_covered": "2026-11-26..2027-01-21",
+   "dates_covered": "2026-11-27..2027-01-21",
    "missing_dates": [],
    "vo_footnote_present": false
   },
   "https://cinemafiume.it/cinema/cinema-pindemonte/": {
    "cinema": "Cinema Pindemonte",
    "status": "ok",
-   "dates_covered": "2026-11-26..2026-12-18",
+   "dates_covered": "2026-11-27..2026-12-18",
    "missing_dates": [],
    "vo_footnote_present": true
   },
   "https://www.ucicinemas.it/cinema/veneto/verona/uci-cinemas-verona/": {
    "cinema": "UCI Cinemas Verona",
    "status": "ok",
-   "dates_covered": "2026-11-26..2026-12-30",
+   "dates_covered": "2026-11-27..2026-12-30",
    "missing_dates": [],
    "api": "https://backend.ucicinemas.it/api/theatres/uci-cinemas-verona/programming/{YYYY-MM-DD}",
-   "probed_through": "2027-04-14"
+   "probed_through": "2027-04-15"
   }
  },
  "films": {
@@ -112,7 +112,7 @@
    ],
    "director": "",
    "production": "",
-   "rating": "10+",
+   "rating": "14+",
    "original_guess": "the further mis adv of cliff",
    "release_year": "2026",
    "trailer_url": "https://www.youtube.com/results?search_query=Le+nuove+disavventure+di+Cliff+Booth+trailer+2026",
@@ -142,8 +142,8 @@
     "Avventura",
     "Fantascienza"
    ],
-   "director": "",
-   "production": "",
+   "director": "Denis Villeneuve",
+   "production": "USA 2026",
    "rating": "6+",
    "original_guess": "dune part three",
    "release_year": "2026",
@@ -197,6 +197,17 @@
    "rating": null,
    "trailer_url": "https://www.youtube.com/results?search_query=El+Ser+Querido+trailer+2026",
    "poster": "posters/l-essere-amato.jpg"
+  },
+  "wild-horse-nine": {
+   "film_it": "Wild Horse Nine",
+   "film_original": "",
+   "poster_url": "https://cinemafiume.it/wp-content/uploads/2026/10/locandinapg1-4.jpg",
+   "genres": [],
+   "director": "Martin McDonagh",
+   "production": "USA/G.B. 2026",
+   "rating": null,
+   "trailer_url": "https://www.youtube.com/results?search_query=Wild+Horse+Nine+trailer+2026",
+   "poster": "posters/wild-horse-nine.jpg"
   }
  },
  "screenings": [
@@ -265,6 +276,28 @@
    "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Le+nuove+disavventure+di+Cliff+Booth+%E2%80%94+UCI+Cinemas+Verona&dates=20261129T105000%2F20261129T131000&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+IMAX%2C+SALA+1+IMAX.+Admission+time+10%3A50%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
    "first_seen": "2026-11-18",
    "is_new": false
+  },
+  {
+   "date": "2026-11-29",
+   "time": "20:30",
+   "film_key": "wild-horse-nine",
+   "film_it": "Wild Horse Nine",
+   "film_original": "",
+   "cinema": "Cinema Pindemonte",
+   "audio": "EN",
+   "subs": "IT",
+   "category": "english_audio",
+   "format": "",
+   "room": null,
+   "price_from": null,
+   "marker": "20:30*",
+   "lang_source": "inferred: production USA/G.B. 2026, director Martin McDonagh",
+   "end_time": "22:26",
+   "runtime_min": 116,
+   "ticket_url": null,
+   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wild+Horse+Nine+%E2%80%94+Cinema+Pindemonte&dates=20261129T203000%2F20261129T222600&location=Via+Sabotino+2%2Fb%2C+37123+Verona&details=Original+version+with+Italian+subtitles+%28marked+20%3A30%2A+on+the+programme%29.+Audio+language+EN+%28inferred%3A+production+USA%2FG.B.+2026%2C+director+Martin+McDonagh%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome",
+   "first_seen": "2026-11-27",
+   "is_new": true
   },
   {
    "date": "2026-11-29",
@@ -353,6 +386,28 @@
    "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Avengers%3A+Doomsday+%E2%80%94+UCI+Cinemas+Verona&dates=20261215T000500%2F20261216T025500&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+05.+Admission+time+00%3A05%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
    "first_seen": "2026-11-18",
    "is_new": false
+  },
+  {
+   "date": "2026-12-15",
+   "time": "20:30",
+   "film_key": "dune-parte-tre",
+   "film_it": "DUNE - Parte tre",
+   "film_original": "",
+   "cinema": "Cinema Kappadue",
+   "audio": "EN",
+   "subs": "IT",
+   "category": "english_audio",
+   "format": "",
+   "room": null,
+   "price_from": null,
+   "marker": "20:30*",
+   "lang_source": "inferred: production USA 2026, director Denis Villeneuve",
+   "end_time": "22:50",
+   "runtime_min": 140,
+   "ticket_url": null,
+   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=DUNE+-+Parte+tre+%E2%80%94+Cinema+Kappadue&dates=20261215T203000%2F20261215T225000&location=Via+Antonio+Rosmini+1%2C+37123+Verona&details=Original+version+with+Italian+subtitles+%28marked+20%3A30%2A+on+the+programme%29.+Audio+language+EN+%28inferred%3A+production+USA+2026%2C+director+Denis+Villeneuve%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome",
+   "first_seen": "2026-11-27",
+   "is_new": true
   },
   {
    "date": "2026-12-16",
@@ -949,13 +1004,6 @@
    "is_new": false
   }
  ],
- "removed_since_last_run": [
-  {
-   "film": "Ti presento i Fotter",
-   "cinema": "UCI Cinemas Verona",
-   "date": "2026-11-26",
-   "time": "18:50"
-  }
- ],
- "previous_run": "2026-11-26T15:20:06"
+ "removed_since_last_run": [],
+ "previous_run": "2026-11-26T19:42:37"
 }
