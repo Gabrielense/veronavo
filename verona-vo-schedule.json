@@ -1,7 +1,7 @@
 {
- "built_at": "2026-11-27T15:07:46",
+ "built_at": "2026-11-28T00:07:28",
  "timezone": "Europe/Rome",
- "content_hash": "c4f8649814c744ee",
+ "content_hash": "72d9883e736570bd",
  "theaters": {
   "UCI Cinemas Verona": {
    "address": "Via Monte Amiata, 37057 San Giovanni Lupatoto VR",
@@ -50,38 +50,38 @@
   "https://cinemafiume.it/cinema/cinema-kappadue/": {
    "cinema": "Cinema Kappadue",
    "status": "ok",
-   "dates_covered": "2026-11-27..2027-01-18",
+   "dates_covered": "2026-11-28..2027-01-18",
    "missing_dates": [],
    "vo_footnote_present": true
   },
   "https://cinemafiume.it/cinema/cinema-diamante/": {
    "cinema": "Cinema Diamante",
    "status": "ok",
-   "dates_covered": "2026-11-27..2027-01-28",
+   "dates_covered": "2026-11-28..2027-01-28",
    "missing_dates": [],
    "vo_footnote_present": true
   },
   "https://cinemafiume.it/cinema/cinema-fiume/": {
    "cinema": "Cinema Fiume",
    "status": "ok",
-   "dates_covered": "2026-11-27..2027-01-21",
+   "dates_covered": "2026-11-28..2027-01-21",
    "missing_dates": [],
    "vo_footnote_present": false
   },
   "https://cinemafiume.it/cinema/cinema-pindemonte/": {
    "cinema": "Cinema Pindemonte",
    "status": "ok",
-   "dates_covered": "2026-11-27..2026-12-18",
+   "dates_covered": "2026-11-28..2026-12-18",
    "missing_dates": [],
    "vo_footnote_present": true
   },
   "https://www.ucicinemas.it/cinema/veneto/verona/uci-cinemas-verona/": {
    "cinema": "UCI Cinemas Verona",
    "status": "ok",
-   "dates_covered": "2026-11-27..2026-12-30",
+   "dates_covered": "2026-11-28..2026-12-30",
    "missing_dates": [],
    "api": "https://backend.ucicinemas.it/api/theatres/uci-cinemas-verona/programming/{YYYY-MM-DD}",
-   "probed_through": "2027-04-15"
+   "probed_through": "2027-04-16"
   }
  },
  "films": {
@@ -212,28 +212,6 @@
  },
  "screenings": [
   {
-   "date": "2026-11-27",
-   "time": "21:00",
-   "film_key": "fjord",
-   "film_it": "FJORD",
-   "film_original": "",
-   "cinema": "Cinema Kappadue",
-   "audio": "?",
-   "subs": "IT",
-   "category": "other",
-   "format": "",
-   "room": null,
-   "price_from": null,
-   "marker": "21:00*",
-   "lang_source": "inferred: undetermined (production Norvegia, Romania, Svezia, Finlandia, Danimarca 2026)",
-   "end_time": "23:25",
-   "runtime_min": 145,
-   "ticket_url": null,
-   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=FJORD+%E2%80%94+Cinema+Kappadue&dates=20261127T210000%2F20261127T232500&location=Via+Antonio+Rosmini+1%2C+37123+Verona&details=Original+version+with+Italian+subtitles+%28marked+21%3A00%2A+on+the+programme%29.+Audio+language+%3F+%28inferred%3A+undetermined+%28production+Norvegia%2C+Romania%2C+Svezia%2C+Finlandia%2C+Danimarca+2026%29%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome",
-   "first_seen": "2026-11-24",
-   "is_new": false
-  },
-  {
    "date": "2026-11-29",
    "time": "10:30",
    "film_key": "hexe-il-regno-delle-streghe",
@@ -297,7 +275,7 @@
    "ticket_url": null,
    "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wild+Horse+Nine+%E2%80%94+Cinema+Pindemonte&dates=20261129T203000%2F20261129T222600&location=Via+Sabotino+2%2Fb%2C+37123+Verona&details=Original+version+with+Italian+subtitles+%28marked+20%3A30%2A+on+the+programme%29.+Audio+language+EN+%28inferred%3A+production+USA%2FG.B.+2026%2C+director+Martin+McDonagh%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome",
    "first_seen": "2026-11-27",
-   "is_new": true
+   "is_new": false
   },
   {
    "date": "2026-11-29",
@@ -407,7 +385,7 @@
    "ticket_url": null,
    "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=DUNE+-+Parte+tre+%E2%80%94+Cinema+Kappadue&dates=20261215T203000%2F20261215T225000&location=Via+Antonio+Rosmini+1%2C+37123+Verona&details=Original+version+with+Italian+subtitles+%28marked+20%3A30%2A+on+the+programme%29.+Audio+language+EN+%28inferred%3A+production+USA+2026%2C+director+Denis+Villeneuve%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome",
    "first_seen": "2026-11-27",
-   "is_new": true
+   "is_new": false
   },
   {
    "date": "2026-12-16",
@@ -1005,5 +983,5 @@
   }
  ],
  "removed_since_last_run": [],
- "previous_run": "2026-11-26T19:42:37"
+ "previous_run": "2026-11-27T15:07:46"
 }
