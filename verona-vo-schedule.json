@@ -1,7 +1,7 @@
 {
- "built_at": "2026-11-28T00:07:28",
+ "built_at": "2026-11-28T14:14:48",
  "timezone": "Europe/Rome",
- "content_hash": "72d9883e736570bd",
+ "content_hash": "c23781b971bb2e8c",
  "theaters": {
   "UCI Cinemas Verona": {
    "address": "Via Monte Amiata, 37057 San Giovanni Lupatoto VR",
@@ -85,22 +85,6 @@
   }
  },
  "films": {
-  "hexe-il-regno-delle-streghe": {
-   "film_it": "Hexe - Il regno delle streghe",
-   "film_original": "",
-   "poster_url": "https://storage.googleapis.com/uci-infrastructure-bucket/Common/Movies/Posters/Fcp0LrWIl8PFylChrPgO40H5QG9Hh72K6uCh7qI5_resized_at_20261126111953.jpg",
-   "genres": [
-    "Animazione",
-    "Famiglia"
-   ],
-   "director": "",
-   "production": "",
-   "rating": "T",
-   "original_guess": "hexed",
-   "release_year": "2026",
-   "trailer_url": "https://www.youtube.com/results?search_query=Hexe+-+Il+regno+delle+streghe+trailer+2026",
-   "poster": "posters/hexe-il-regno-delle-streghe.jpg"
-  },
   "le-nuove-disavventure-di-cliff-booth": {
    "film_it": "Le nuove disavventure di Cliff Booth",
    "film_original": "",
@@ -117,6 +101,22 @@
    "release_year": "2026",
    "trailer_url": "https://www.youtube.com/results?search_query=Le+nuove+disavventure+di+Cliff+Booth+trailer+2026",
    "poster": "posters/le-nuove-disavventure-di-cliff-booth.jpg"
+  },
+  "hexe-il-regno-delle-streghe": {
+   "film_it": "Hexe - Il regno delle streghe",
+   "film_original": "",
+   "poster_url": "https://storage.googleapis.com/uci-infrastructure-bucket/Common/Movies/Posters/Fcp0LrWIl8PFylChrPgO40H5QG9Hh72K6uCh7qI5_resized_at_20261126111953.jpg",
+   "genres": [
+    "Animazione",
+    "Famiglia"
+   ],
+   "director": "",
+   "production": "",
+   "rating": "T",
+   "original_guess": "hexed",
+   "release_year": "2026",
+   "trailer_url": "https://www.youtube.com/results?search_query=Hexe+-+Il+regno+delle+streghe+trailer+2026",
+   "poster": "posters/hexe-il-regno-delle-streghe.jpg"
   },
   "avengers-doomsday": {
    "film_it": "Avengers: Doomsday",
@@ -211,28 +211,6 @@
   }
  },
  "screenings": [
-  {
-   "date": "2026-11-29",
-   "time": "10:30",
-   "film_key": "hexe-il-regno-delle-streghe",
-   "film_it": "Hexe - Il regno delle streghe",
-   "film_original": "",
-   "cinema": "UCI Cinemas Verona",
-   "audio": "EN",
-   "subs": "IT",
-   "category": "english_audio",
-   "format": "",
-   "room": "SALA 08",
-   "price_from": "7.9",
-   "marker": "ENG / sottotitoli ITA",
-   "lang_source": "badge",
-   "end_time": "12:19",
-   "runtime_min": 109,
-   "ticket_url": "https://www.ucicinemas.it/movies/hexe-il-regno-delle-streghe/acquista/5116/10063/579134",
-   "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Hexe+-+Il+regno+delle+streghe+%E2%80%94+UCI+Cinemas+Verona&dates=20261129T103000%2F20261129T121900&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+08.+Admission+time+10%3A30%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome",
-   "first_seen": "2026-11-24",
-   "is_new": false
-  },
   {
    "date": "2026-11-29",
    "time": "10:50",
@@ -982,6 +960,13 @@
    "is_new": false
   }
  ],
- "removed_since_last_run": [],
- "previous_run": "2026-11-27T15:07:46"
+ "removed_since_last_run": [
+  {
+   "film": "Hexe - Il regno delle streghe",
+   "cinema": "UCI Cinemas Verona",
+   "date": "2026-11-29",
+   "time": "10:30"
+  }
+ ],
+ "previous_run": "2026-11-28T00:07:28"
 }

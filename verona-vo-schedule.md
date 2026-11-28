@@ -1,12 +1,11 @@
-# Verona original-language screenings — updated 2026-11-28 00:07 (Europe/Rome)
+# Verona original-language screenings — updated 2026-11-28 14:14 (Europe/Rome)
 
-35 qualifying showtimes across 4 of the 5 cinemas tracked.
+34 qualifying showtimes across 4 of the 5 cinemas tracked.
 
 ## Next 7 days
 
 | Date | Time | Film | Cinema | Audio / Subs | Links  NEW |
 |---|---|---|---|---|---|---|
-| Sun 29 Nov | 10:30 | Hexe - Il regno delle streghe | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/hexe-il-regno-delle-streghe/acquista/5116/10063/579134) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Hexe+-+Il+regno+delle+streghe+%E2%80%94+UCI+Cinemas+Verona&dates=20261129T103000%2F20261129T121900&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+08.+Admission+time+10%3A30%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
 | Sun 29 Nov | 10:50 | Le nuove disavventure di Cliff Booth | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/le-nuove-disavventure-di-cliff-booth/acquista/5116/10051/578430) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Le+nuove+disavventure+di+Cliff+Booth+%E2%80%94+UCI+Cinemas+Verona&dates=20261129T105000%2F20261129T131000&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+IMAX%2C+SALA+1+IMAX.+Admission+time+10%3A50%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
 | Sun 29 Nov | 20:30 | Wild Horse Nine | Cinema Pindemonte | EN audio / IT subs | [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wild+Horse+Nine+%E2%80%94+Cinema+Pindemonte&dates=20261129T203000%2F20261129T222600&location=Via+Sabotino+2%2Fb%2C+37123+Verona&details=Original+version+with+Italian+subtitles+%28marked+20%3A30%2A+on+the+programme%29.+Audio+language+EN+%28inferred%3A+production+USA%2FG.B.+2026%2C+director+Martin+McDonagh%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome) |  |
 | Sun 29 Nov | 21:00 | STORIE PARALLELE (Parallel tales) | Cinema Diamante | FR audio / IT subs | [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=STORIE+PARALLELE+%E2%80%94+Cinema+Diamante&dates=20261129T210000%2F20261129T230000&location=Via+Pietro+Zecchinato+5%2C+37136+Verona&details=Original+version+with+Italian+subtitles+%28marked+21%3A00%2A+on+the+programme%29.+Audio+language+FR+%28inferred%3A+production+Francia%2C+Italia%2C+Belgio%2C+2026%2C+director+Asghar+Farhadi%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome) |  |
@@ -20,7 +19,6 @@
 
 | Date | Time | Film | Cinema | Audio / Subs | Links  NEW |
 |---|---|---|---|---|---|---|
-| Sun 29 Nov | 10:30 | Hexe - Il regno delle streghe | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/hexe-il-regno-delle-streghe/acquista/5116/10063/579134) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Hexe+-+Il+regno+delle+streghe+%E2%80%94+UCI+Cinemas+Verona&dates=20261129T103000%2F20261129T121900&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+08.+Admission+time+10%3A30%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
 | Sun 29 Nov | 10:50 | Le nuove disavventure di Cliff Booth | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/le-nuove-disavventure-di-cliff-booth/acquista/5116/10051/578430) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Le+nuove+disavventure+di+Cliff+Booth+%E2%80%94+UCI+Cinemas+Verona&dates=20261129T105000%2F20261129T131000&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+IMAX%2C+SALA+1+IMAX.+Admission+time+10%3A50%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
 | Sun 29 Nov | 20:30 | Wild Horse Nine | Cinema Pindemonte | EN audio / IT subs | [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wild+Horse+Nine+%E2%80%94+Cinema+Pindemonte&dates=20261129T203000%2F20261129T222600&location=Via+Sabotino+2%2Fb%2C+37123+Verona&details=Original+version+with+Italian+subtitles+%28marked+20%3A30%2A+on+the+programme%29.+Audio+language+EN+%28inferred%3A+production+USA%2FG.B.+2026%2C+director+Martin+McDonagh%29.+No+online+ticketing+%E2%80%94+box+office+only.+Source%3A+cinemafiume.it&ctz=Europe%2FRome) |  |
 | Wed 2 Dec | 19:40 | Hexe - Il regno delle streghe | UCI Cinemas Verona | EN audio / IT subs | [tickets](https://www.ucicinemas.it/movies/hexe-il-regno-delle-streghe/acquista/5116/10063/579103) [+calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Hexe+-+Il+regno+delle+streghe+%E2%80%94+UCI+Cinemas+Verona&dates=20261202T194000%2F20261202T212900&location=Via+Monte+Amiata%2C+37057+San+Giovanni+Lupatoto+VR&details=EN+audio%2C+subtitles+IT+%E2%80%94+2D%2C+SALA+05.+Admission+time+19%3A40%3B+the+film+itself+starts+about+25+minutes+later.+Source%3A+ucicinemas.it&ctz=Europe%2FRome) |  |
@@ -73,8 +71,7 @@
 
 ## Removed since last run
 
-_none_
-
+- {'film': 'Hexe - Il regno delle streghe', 'cinema': 'UCI Cinemas Verona', 'date': '2026-11-29', 'time': '10:30'}
 
 ## Cinemas
 
